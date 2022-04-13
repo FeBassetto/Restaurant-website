@@ -48,7 +48,7 @@ export const theme = {
         black: "#000000",
         //grey
         greyMenu: "#C8BFBF",
-        lightGreyBackground: "#C4C4C4",
+        lightGrey: "#C4C4C4",
         darkGreyTxt: "#4D4D4D",
         darkGreyBorder: "#414141",
         //red

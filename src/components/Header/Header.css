@@ -1,3 +1,20 @@
 .header{
-    
+    background-color: #00000000;
+
+    padding: 20px 20px;
+
+    display: grid;
+    grid-template-columns: auto 1.4fr 0.4fr;
+
+    position: absolute;
+    z-index: 99;
+
+    width: 100%;
 }
+
+.header__logo{
+    padding-right: 5em;
+
+    width: 150px;
+}
+

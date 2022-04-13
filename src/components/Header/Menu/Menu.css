@@ -1,0 +1,23 @@
+.header__menu{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+}
+
+.header__menu--navigation{
+    padding-right: 3rem;
+
+    box-sizing: border-box;
+}
+
+.header__link{
+    text-decoration: none;
+}
+
+.header__item{
+    font-size: 1.2em;
+}
+
+.header__item--active{
+    color: #ffffff;
+}
