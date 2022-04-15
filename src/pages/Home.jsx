@@ -5,7 +5,6 @@ import HomeBanner from "../components/HomeBanner/HomeBanner";
 
 const Home = () => {
 
-
     return (
         <>
             <GreenBackground>

@@ -1,7 +1,8 @@
 import Routing from "./routes";
 import { ThemeProvider } from "styled-components";
-import {theme} from './Themes.js';
+import { theme } from './Themes.js';
 import GlobalStyle from "./Themes.js";
+import React from "react";
 
 
 function App() {

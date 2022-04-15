@@ -1,4 +1,5 @@
 import React from "react";
+import BackgroundBanner from "./BackgroundBanner/BackgroundBanner";
 import BannerContent from "./BannerContent/BannerContent";
 import './HomeBanner.css'
 
@@ -17,6 +18,7 @@ const HomeBanner = () => {
     return (
         <div className="container">
             <BannerContent {...texts} />
+            <BackgroundBanner/>
         </div>
     )
 }
