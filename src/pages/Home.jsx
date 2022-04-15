@@ -1,13 +1,17 @@
 import React from "react";
+import GreenBackground from "../components/GreenBackground/GreenBackground";
+import HomeBanner from "../components/HomeBanner/HomeBanner";
 
 
 const Home = () => {
 
 
-    return(
-        <section>
-            Home
-        </section>
+    return (
+        <>
+            <GreenBackground>
+                <HomeBanner />
+            </GreenBackground>
+        </>
     )
 }
 

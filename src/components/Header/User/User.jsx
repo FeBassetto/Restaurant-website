@@ -19,7 +19,7 @@ const Item = styled.div`
     }
 `
 
-const User = ({user, shopItems}) => {
+const User = ({ user, shopItems, logged }) => {
 
 
     return (
@@ -27,8 +27,8 @@ const User = ({user, shopItems}) => {
             <li>
                 <Link to="/" className="header__link" >
                     <Item>
-                        <AiOutlineUser size={30}/>
-                        {user ? user: "Cadastre-se"}
+                        <AiOutlineUser size={30} />
+                        {logged ? user : "Cadastre-se"}
                     </Item>
                 </Link>
             </li>
@@ -36,8 +36,10 @@ const User = ({user, shopItems}) => {
                 <Link to="/" className="header__link" >
                     <IconButton aria-label="cart">
                         <Item>
-                            <Badge badgeContent={shopItems} color="default" >
-                                <ShoppingCartIcon color="default" />
+                            <Badge badgeContent={shopItems}
+                                color="secondary"
+                                overlap="rectangular">
+                                <ShoppingCartIcon />
                             </Badge>
                         </Item>
                     </IconButton>

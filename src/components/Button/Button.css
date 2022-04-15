@@ -1,0 +1,21 @@
+.button{
+    border-radius: 50px;
+
+    border: none;
+    outline: none;
+
+    font-size: 1.5rem;
+
+    transition: .3s;
+}
+
+.button--discount{
+    width: 15rem;
+    height: 4rem;
+    font-size: 1.8rem;
+}
+
+.button--product{
+    width: 15rem;
+    height: 2.5rem;
+}
