@@ -10,6 +10,7 @@ const Home = () => {
             <GreenBackground>
                 <HomeBanner />
             </GreenBackground>
+            
         </>
     )
 }

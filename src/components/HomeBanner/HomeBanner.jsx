@@ -9,7 +9,7 @@ const HomeBanner = () => {
         subPrice: "Apenas R$10,99",
         title: "The Smoking Burger",
         discount: "15%",
-        discountText: "Discount",
+        discountText: "Desconto",
         discountTitle: "Na sua primeira encomenda, se encomendar através do nosso Site!",
         buttonText: "Compre Online"
     }

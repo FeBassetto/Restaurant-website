@@ -1,5 +1,5 @@
 .header{
-    background-color: #00000000;
+    background-color: #00000000; /*#069815*/
     font-size: 1.5em;
 
     padding: 20px 20px;
@@ -18,5 +18,17 @@
     padding-right: 5em;
 
     width: 150px;
+}
+
+@media screen and (min-width:1700px){
+    .header{
+        grid-template-columns: auto 0.7fr 0.2fr;
+    } 
+}
+
+@media screen and (max-width:1350px){
+    .header{
+        grid-template-columns: auto 3.5fr 1fr;
+    }
 }
 
