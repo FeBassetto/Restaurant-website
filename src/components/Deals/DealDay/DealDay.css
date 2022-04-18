@@ -1,0 +1,60 @@
+.deals {
+    position: relative;
+
+    display: flex;
+    justify-content: flex-end;
+    flex-direction: column;
+    padding: 5rem;
+}
+
+.deals::after {
+    position: absolute;
+    content: "";
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    z-index: -1;
+
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    filter: brightness(0.4);
+}
+.deals > h1{
+    margin-bottom: 3rem;
+}
+
+.primary {
+    grid-row: span 2;
+    grid-column: span 1;
+}
+
+.primary--hamburger::after {
+    background-image: url(../../../assets/img/hamburguerBackground.png);
+}
+
+.secondary {
+    grid-row: span 1;
+    grid-column: span 1;
+}
+
+.secondary--potatos::after {
+    background-image: url(../../../assets/img/potatosBackground.png);
+}
+
+.secondary--hamburger::after {
+    background-image: url(../../../assets/img/hamburguerBanner_2.png);
+}
+
+.sub{
+    margin-bottom: .25rem;
+}
+
+.sub--primary{
+    font-size: 2.5rem;
+}
+
+.sub--secondary{
+    font-size: 1.75rem;
+}

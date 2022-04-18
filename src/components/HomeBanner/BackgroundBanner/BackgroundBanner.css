@@ -1,25 +1,39 @@
-.background{
+.background {
     background-image: url(../../../assets/img/hamburguerBanner.png);
-    background-size: 800px 1000px;
-    background-position: right;
+    background-size: 900px 950px;
+    background-position: center;
     background-repeat: no-repeat;
 
     width: 100%;
     height: 100%;
 }
 
-@media screen and (max-width:1400px){
-    .background{
+@media screen and (min-width:1900px) {
+    .background {
+        background-size: 1000px 950px;
+    }
+}
+
+@media screen and (min-width:2000px) {
+    .background {
+        background-size: 1100px 1000px;
+    }
+}
+
+@media screen and (max-width:1400px) {
+    .background {
         background-size: 700px 900px;
     }
 }
-@media screen and (max-width:1300px){
-    .background{
+
+@media screen and (max-width:1300px) {
+    .background {
         background-size: 600px 800px;
     }
 }
-@media screen and (max-width:1200px){
-    .background{
+
+@media screen and (max-width:1200px) {
+    .background {
         background-size: 500px 700px;
     }
 }

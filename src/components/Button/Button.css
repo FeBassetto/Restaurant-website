@@ -10,12 +10,13 @@
 }
 
 .button--discount{
-    width: 15rem;
-    height: 4rem;
-    font-size: 1.8rem;
+    width: 16rem;
+    height: 5rem;
+    font-size: 2rem;
 }
 
 .button--product{
-    width: 15rem;
-    height: 2.5rem;
+    width: 19rem;
+    height: 3.25rem;
+    font-size: 2rem;
 }
