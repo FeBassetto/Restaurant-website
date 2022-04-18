@@ -1,0 +1,67 @@
+.box {
+    text-align: center;
+
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: flex-end;
+
+    width: 400px;
+    height: 600px;
+
+    padding: 15px;
+    box-sizing: border-box;
+
+    position: relative;
+}
+
+.box__image {
+    position: absolute;
+    top: 0;
+    
+    z-index: 2;
+}
+
+.box__content {
+    background-color: #ffffff;
+
+    box-shadow: 0 5px .3em grey;
+    border-radius: 20px;
+
+    height: 62.25%;
+
+    padding-top: 3rem;
+    box-sizing: border-box;
+
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+}
+
+.box__content>* {
+    margin-bottom: 2rem;
+}
+
+.image__shadow {
+    width: 90%;
+    height: 20%;
+
+    background-color: rgba(0, 0, 0, 0.400);
+    filter: blur(8px);
+
+    border-radius: 50%;
+    z-index: 1;
+}
+
+.addCircle{
+    position: absolute;
+    bottom: -3rem;
+
+    font-size: 5rem;
+    color: #017E0D;
+}
+
+.addCircle:hover{
+    color: hsla(126, 98%, 25%, 0.9);
+    cursor: pointer;
+}

@@ -1,8 +1,8 @@
 import React from "react";
 import styled from 'styled-components';
+import './HeaderSection.css'
 
 const Head = styled.div`
-    background-color:${props => props.theme.colors.green};
     padding:5rem;
     text-align:center;
     display:flex;
@@ -11,31 +11,29 @@ const Head = styled.div`
 `
 
 const Title = styled.h1`
-    color:${props => props.theme.colors.lightYellow};
-    font-family: ${props => props.theme.font.Title};
+    font-family:${props => props.theme.font.SubTitle};
     font-size:4rem;
 `
 
 const Sub = styled.h2`
-    color:${props => props.theme.colors.white};
     font-family:${props => props.theme.font.SubTitle};
     font-size:6rem;
     width:70%;
 `
 
-const HeaderIngredients = ({title,sub}) => {
+const HeaderSection = ({ title, sub, background }) => {
 
 
-    return(
+    return (
         <Head>
-            <Title>
+            <Title className={`title--${background}`}>
                 {title}
             </Title>
-            <Sub>
+            <Sub className={`sub--${background}`}>
                 {sub}
             </Sub>
         </Head>
     )
 }
 
-export default HeaderIngredients
+export default HeaderSection
