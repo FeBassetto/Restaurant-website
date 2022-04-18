@@ -4,37 +4,37 @@
             "title": "Smush Classico",
             "price": "R$20,99",
             "text": "Pão Brioche ,Hámburguer, Mussarela, Bacon, Cebola roxa, Tomate",
-            "img":"../../../assets/img/burgerProduct_1.png"
+            "img":"http://localhost:3000/static/media/burgerProduct_1.288424c1689c75666927.png"
         },
         {
             "title": "Hambúrguer de Frango",
             "price": "R$15,99",
             "text": "Pão Brioche ,2 Hámburgueres, Mussarela, Bacon, Alface, Tomate",
-            "img":"./src/assets/img/burgerProduct_2.png"
+            "img":"http://localhost:3000/static/media/burgerProduct_2.073b9a263ddb9f928065.png"
         },
         {
             "title": "Hamburguer Orgânico",
             "price": "R$25,99",
             "text": "Pão Brioche ,2 Hámburguer Vegetais, Mussarela, Ovo, Alface, Tomate",
-            "img":"./src/assets/img/burgerProduct_3.png"
+            "img":"http://localhost:3000/static/media/burgerProduct_3.1a7e3c02b290f96b7b20.png"
         },
         {
             "title": "Smush Triplo",
             "price": "R$20,99",
             "text": "Pão Brioche ,3 Hámburgueres, Mussarela, alface, cebola, Tomate",
-            "img":"./src/assets/img/burgerProduct_4.png"
+            "img":"http://localhost:3000/static/media/burgerProduct_4.59157860ba0ccff2b3a0.png"
         },
         {
             "title": "Smush Tradicional",
             "price": "R$10,99",
             "text": "Pão Brioche ,Hámburguer, Mussarela, alface, Cebola roxa, picles",
-            "img":"./src/assets/img/burgerProduct_5.png"
+            "img":"http://localhost:3000/static/media/burgerProduct_5.8c3ab31e7f8aa820d1e0.png"
         },
         {
             "title": "Smush Duplo",
             "price": "R$20,99",
             "text": "Pão Brioche ,Hámburguer, Mussarela, Bacon, Cebola roxa, Tomate",
-            "img":"src/assets/img/burgerProduct_6.png"
+            "img":"http://localhost:3000/static/media/burgerProduct_6.1a7e3c02b290f96b7b20.png"
         }
     ]
 }
