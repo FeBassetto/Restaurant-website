@@ -2,6 +2,7 @@ import React from "react";
 import { Link } from "react-router-dom";
 import styled from "styled-components";
 import './Menu.css'
+import {GiHamburgerMenu} from 'react-icons/gi'
 
 const Item = styled.li`
     &:not(.header__item--active){
@@ -18,6 +19,7 @@ const Menu = () => {
 
     return (
         <ul className="header__menu header__menu--navigation">
+            <GiHamburgerMenu className="hamburger__menu"/>
             <Link to="/" className="header__link">
                 <Item className="header__item header__item--active">Home</Item>
             </Link>

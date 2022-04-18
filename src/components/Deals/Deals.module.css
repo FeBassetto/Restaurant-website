@@ -5,3 +5,10 @@
 
     height: 1600px;
 }
+
+@media screen and (max-width:1225px){
+    .container{
+        height: 2000px;
+        grid-template-rows: repeat(3, 1fr);
+    }
+}

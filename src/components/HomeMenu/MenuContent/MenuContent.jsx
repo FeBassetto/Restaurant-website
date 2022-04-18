@@ -1,8 +1,8 @@
 import React, { useContext } from "react";
 import './MenuContent.css';
 import BurgerBox from "../../BurgerBox/BurgerBox";
-import Burger_6 from '../../../assets/img/burgerProduct_6.png'
 import { SnackContext } from './../../../common/context/snacks';
+import Burger from '../../../assets/img/burgerProduct_6.png'
 
 
 const MenuContent = () => {

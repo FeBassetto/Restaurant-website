@@ -1,8 +1,14 @@
-.header__menu{
+.header__user{
     display: flex;
     justify-content: space-evenly;
 }
 
 .header__link{
     text-decoration: none;
+}
+
+@media screen and (max-width:1300px) {
+    .header__user{
+        margin-right: 5rem;
+    }
 }

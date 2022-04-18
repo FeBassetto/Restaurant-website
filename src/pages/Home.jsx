@@ -1,4 +1,5 @@
 import React from "react";
+import Customers from "../components/Customers/Customers";
 import Deals from "../components/Deals/Deals";
 import GreenBackground from "../components/GreenBackground/GreenBackground";
 import HomeBanner from "../components/HomeBanner/HomeBanner";
@@ -16,6 +17,7 @@ const Home = () => {
             <Deals/>
             <Ingredients/>
             <HomeMenu/>
+            <Customers/>
         </>
     )
 }

@@ -23,7 +23,7 @@ const User = ({ user, shopItems, logged }) => {
 
 
     return (
-        <ul className="header__menu">
+        <ul className="header__user">
             <li>
                 <Link to="/" className="header__link" >
                     <Item>

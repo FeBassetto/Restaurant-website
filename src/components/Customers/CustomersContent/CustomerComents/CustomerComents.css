@@ -1,0 +1,10 @@
+.customerComents{
+    height: 90%;
+    width: 100%;
+
+    padding-top: 5rem;
+    box-sizing: border-box;
+
+    display: grid;
+    grid-template-columns: repeat(6, 1fr);
+}

@@ -17,8 +17,8 @@ const Header = () => {
     }, [user])
 
     return (
-        <header className={`header `}>
-            <Link to="/" className="header__link">
+        <header className="header">
+            <Link to="/" className="header__link link__logo">
                 <img src={Logo} alt="Logo BurgerNation" className="header__logo" />
             </Link>
             <Menu />

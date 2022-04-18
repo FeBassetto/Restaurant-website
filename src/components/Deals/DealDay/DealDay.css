@@ -63,3 +63,24 @@
     position: absolute;
     top:-2rem;
 }
+
+@media screen and (max-width:1325px){
+    .sub--primary{
+        font-size: 2rem;
+    }
+    
+    .sub--secondary{
+        font-size: 1.5rem;
+    }
+}
+
+@media screen and (max-width:1225px){
+    .primary {
+        grid-row: span 1;
+        grid-column: span 2;
+    }
+    .secondary {
+        grid-row: span 1;
+        grid-column: span 2;
+    }
+}

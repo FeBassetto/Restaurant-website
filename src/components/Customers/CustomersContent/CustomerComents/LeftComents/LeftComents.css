@@ -1,0 +1,7 @@
+.leftComents{
+    grid-column: span 3;
+
+    border-right: 4px solid #808080;
+
+    height: 70%;
+}

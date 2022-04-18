@@ -12,6 +12,17 @@ const Deals = styled.div`
 const Title = styled.h1`
     font-size:4rem;
     line-height: 5rem;
+
+    @media screen and (max-width:1325px){
+        &&{
+            font-size:3.5rem;
+        }
+    }
+    @media screen and (max-width:1225px){
+        &&{
+            font-size:3rem;
+        }
+    }
 `
 
 

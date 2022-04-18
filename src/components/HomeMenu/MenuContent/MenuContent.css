@@ -1,9 +1,21 @@
 .menuContent{
     display: grid;
     grid-template-columns: repeat(3, 1fr);
+    width: 100%;
 }
 
 .menuContent > *{
     justify-self: center;
     margin-bottom: 4rem;
+}
+
+@media screen and (max-width:1400px){
+    .menuContent{
+        grid-template-columns: repeat(2, 1fr);
+    }
+}
+@media screen and (max-width:925px){
+    .menuContent{
+        grid-template-columns: 1fr;
+    }
 }
