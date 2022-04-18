@@ -58,3 +58,8 @@
 .sub--secondary{
     font-size: 1.75rem;
 }
+
+.deals>*:first-child{
+    position: absolute;
+    top:-2rem;
+}
