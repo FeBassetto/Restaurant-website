@@ -1,0 +1,6 @@
+.Ingredients {
+    height: 1600px;
+
+    display: flex;
+    flex-direction: column;
+}

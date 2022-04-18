@@ -1,5 +1,4 @@
 import React from "react";
-import './HeaderIngredients.css'
 import styled from 'styled-components';
 
 const Head = styled.div`
@@ -12,7 +11,7 @@ const Head = styled.div`
 `
 
 const Title = styled.h1`
-    color:${props => props.theme.colors.darkYellow};
+    color:${props => props.theme.colors.lightYellow};
     font-family: ${props => props.theme.font.Title};
     font-size:4rem;
 `

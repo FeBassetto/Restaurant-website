@@ -1,0 +1,8 @@
+.backgroundIngredients {
+    height: 100%;
+
+    background-image: url(../../../assets/img/backgroundPartsofBurguer.png);
+    background-repeat: no-repeat;
+    background-size: 90%;
+    background-position: center;
+}
