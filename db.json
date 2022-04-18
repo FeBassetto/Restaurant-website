@@ -4,37 +4,37 @@
             "title": "Smush Classico",
             "price": "R$20,99",
             "text": "Pão Brioche ,Hámburguer, Mussarela, Bacon, Cebola roxa, Tomate",
-            "img":""
+            "img":"../../../assets/img/burgerProduct_1.png"
         },
         {
             "title": "Hambúrguer de Frango",
             "price": "R$15,99",
             "text": "Pão Brioche ,2 Hámburgueres, Mussarela, Bacon, Alface, Tomate",
-            "img":""
+            "img":"./src/assets/img/burgerProduct_2.png"
         },
         {
             "title": "Hamburguer Orgânico",
             "price": "R$25,99",
             "text": "Pão Brioche ,2 Hámburguer Vegetais, Mussarela, Ovo, Alface, Tomate",
-            "img":""
+            "img":"./src/assets/img/burgerProduct_3.png"
         },
         {
             "title": "Smush Triplo",
             "price": "R$20,99",
             "text": "Pão Brioche ,3 Hámburgueres, Mussarela, alface, cebola, Tomate",
-            "img":""
+            "img":"./src/assets/img/burgerProduct_4.png"
         },
         {
             "title": "Smush Tradicional",
             "price": "R$10,99",
             "text": "Pão Brioche ,Hámburguer, Mussarela, alface, Cebola roxa, picles",
-            "img":""
+            "img":"./src/assets/img/burgerProduct_5.png"
         },
         {
             "title": "Smush Duplo",
             "price": "R$20,99",
             "text": "Pão Brioche ,Hámburguer, Mussarela, Bacon, Cebola roxa, Tomate",
-            "img":""
+            "img":"src/assets/img/burgerProduct_6.png"
         }
     ]
 }
