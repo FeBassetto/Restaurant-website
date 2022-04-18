@@ -1,4 +1,9 @@
 .menuContent{
-    display: flex;
-    flex-flow: row wrap;
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+}
+
+.menuContent > *{
+    justify-self: center;
+    margin-bottom: 4rem;
 }

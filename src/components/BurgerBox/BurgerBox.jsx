@@ -5,7 +5,7 @@ import {MdOutlineAddCircle} from 'react-icons/md'
 
 const Title = styled.h1`
     font-family:${props => props.theme.font.Text};
-    font-size:2rem;
+    font-size:3rem;
     `
 
 const Price = styled.h2`
@@ -15,7 +15,10 @@ const Price = styled.h2`
     `
 
 const Text = styled.h3`
-    font-family:${props => props.theme.font.Text}
+    font-family:${props => props.theme.font.Text};
+    font-size:1.25rem;
+    padding: 0 2rem;
+    box-sizing:border-box;
     `
 
 const BurgerBox = ({ url, title, price, text }) => {
