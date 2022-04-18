@@ -1,5 +1,40 @@
 {
-    "users":[
-        {"id":2, "name":"Felipe"}
+    "snacks": [
+        {
+            "title": "Smush Classico",
+            "price": "R$20,99",
+            "text": "Pão Brioche ,Hámburguer, Mussarela, Bacon, Cebola roxa, Tomate",
+            "img":""
+        },
+        {
+            "title": "Hambúrguer de Frango",
+            "price": "R$15,99",
+            "text": "Pão Brioche ,2 Hámburgueres, Mussarela, Bacon, Alface, Tomate",
+            "img":""
+        },
+        {
+            "title": "Hamburguer Orgânico",
+            "price": "R$25,99",
+            "text": "Pão Brioche ,2 Hámburguer Vegetais, Mussarela, Ovo, Alface, Tomate",
+            "img":""
+        },
+        {
+            "title": "Smush Triplo",
+            "price": "R$20,99",
+            "text": "Pão Brioche ,3 Hámburgueres, Mussarela, alface, cebola, Tomate",
+            "img":""
+        },
+        {
+            "title": "Smush Tradicional",
+            "price": "R$10,99",
+            "text": "Pão Brioche ,Hámburguer, Mussarela, alface, Cebola roxa, picles",
+            "img":""
+        },
+        {
+            "title": "Smush Duplo",
+            "price": "R$20,99",
+            "text": "Pão Brioche ,Hámburguer, Mussarela, Bacon, Cebola roxa, Tomate",
+            "img":""
+        }
     ]
 }
