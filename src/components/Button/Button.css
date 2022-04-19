@@ -20,3 +20,11 @@
     height: 3.25rem;
     font-size: 2rem;
 }
+
+@media screen and (max-width:1080px) {
+    .button--discount{
+        width: 13rem;
+        height: 4rem;
+        font-size: 1.5rem;
+    }
+}

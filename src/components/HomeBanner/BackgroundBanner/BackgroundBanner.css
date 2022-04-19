@@ -8,7 +8,7 @@
     height: 100%;
 }
 
-@media screen and (min-width:1900px) {
+@media screen and (min-width:1800px) {
     .background {
         background-size: 1000px 950px;
     }
@@ -22,18 +22,24 @@
 
 @media screen and (max-width:1400px) {
     .background {
-        background-size: 700px 900px;
-    }
-}
-
-@media screen and (max-width:1300px) {
-    .background {
         background-size: 600px 800px;
     }
 }
 
-@media screen and (max-width:1200px) {
+@media screen and (max-width:1400px) {
     .background {
+        background-size: 700px 900px;
+    }
+}
+
+@media screen and (max-width:1000px){
+    .background{
         background-size: 500px 700px;
+    }
+}
+
+@media screen and (max-width:750px){
+    .background{
+        background-size: 400px 700px;
     }
 }

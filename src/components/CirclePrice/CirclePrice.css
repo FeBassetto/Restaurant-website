@@ -1,4 +1,4 @@
-.circle{
+.circle {
     width: 200px;
     height: 200px;
 
@@ -9,44 +9,73 @@
     justify-content: center;
 }
 
-.circle--discount{
+.circle--discount {
     flex-direction: column-reverse;
 }
 
-.circle--discount p:first-child{
-    font-family: 'RobotoRegular',sans-serif;
+.circle--discount p:first-child {
+    font-family: 'RobotoRegular', sans-serif;
     font-size: 2rem;
 }
 
-.circle--discount p:last-child{
+.circle--discount p:last-child {
     font-size: 5rem;
 }
 
-.circle--price{
+.circle--price {
     flex-direction: column;
 }
 
-.circle--yellow{
+.circle--yellow {
     color: #ffffff;
     background-color: #FAAB34;
 }
 
-.circle--white{
+.circle--white {
     color: #000000;
     background-color: #ffffff;
 }
 
-.circle--green{
+.circle--green {
     background-color: #017E0D;
     color: #ffffff;
 }
 
-.circle__text{
+.circle__text {
     font-size: 1.4rem;
     line-height: 1.5;
 }
 
-.circle__price{
+.circle__price {
     font-size: 3.5rem;
 }
 
+@media screen and (max-width:1080px) {
+    .circle--discount {
+        width: 150px;
+        height: 150px;
+    }
+    .circle--discount p:first-child {
+        font-family: 'RobotoRegular', sans-serif;
+        font-size: 1.5rem;
+    }
+    
+    .circle--discount p:last-child {
+        font-size: 4rem;
+    }
+}
+
+@media screen and (max-width:815px) {
+    .circle--discount {
+        width: 125px;
+        height: 125px;
+    }
+    .circle--discount p:first-child {
+        font-family: 'RobotoRegular', sans-serif;
+        font-size: 1rem;
+    }
+    
+    .circle--discount p:last-child {
+        font-size: 3rem;
+    }
+}

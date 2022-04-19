@@ -2,7 +2,8 @@ import React, { useState } from "react";
 import './Header.css';
 import { useEffect } from "react";
 import LogoHeader from './LogoHeader/LogoHeader';
-import NavbarMobile from './Navbar/NavbarMobile';
+import NavbarMobile from './NavbarMobile/NavbarMobile';
+import NavbarDesktop from "./NavbarDesktop/NavbarDesktop";
 
 const Header = () => {
 
@@ -24,7 +25,11 @@ const Header = () => {
                     shopItems={shopItems} />
             </div>
             <div className="desktop">
-                
+                <NavbarDesktop
+                    user={user}
+                    logged={logged}
+                    shopItems={shopItems}
+                />
             </div>
         </header>
     )

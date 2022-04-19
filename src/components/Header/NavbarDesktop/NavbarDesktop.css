@@ -1,0 +1,45 @@
+.Navbar__desktop{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+
+    font-size:1.5rem;
+
+    width: 100%;
+    padding: 0rem 2.5rem 0rem 5rem;
+    box-sizing: border-box;
+}
+
+.navigation{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    align-items: center;
+    width: 70%;
+}
+
+.navigation__item{
+    color: #C8BFBF;
+    text-decoration: none;
+}
+
+.navigation__item:hover{
+    color: #ffffff;
+}
+
+.navigation__item--active{
+    color: #ffffff;
+}
+
+.user{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    width: 200px;
+}
+
+@media screen and (min-width:1700px){
+    .Navbar__desktop{
+        font-size: 2rem;
+    }
+}
