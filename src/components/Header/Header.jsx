@@ -1,16 +1,14 @@
 import React, { useState } from "react";
 import './Header.css';
-import Logo from '../../assets/img/logo.svg'
-import { Link } from "react-router-dom";
-import Menu from "./Menu/Menu";
-import User from "./User/User";
 import { useEffect } from "react";
+import LogoHeader from './LogoHeader/LogoHeader';
+import NavbarMobile from './Navbar/NavbarMobile';
 
 const Header = () => {
 
-    const [user, setUser] = useState('')
+    const [user, setUser] = useState('Felipe')
     const [logged, setLogged] = useState(false)
-    const [shopItems, setShopItems] = useState(1)
+    const [shopItems, setShopItems] = useState(0)
 
     useEffect(() => {
         setLogged(user ? true : false)
@@ -18,11 +16,16 @@ const Header = () => {
 
     return (
         <header className="header">
-            <Link to="/" className="header__link link__logo">
-                <img src={Logo} alt="Logo BurgerNation" className="header__logo" />
-            </Link>
-            <Menu />
-            <User user={user} shopItems={shopItems} logged={logged} />
+            <LogoHeader />
+            <div className="mobile">
+                <NavbarMobile
+                    user={user}
+                    logged={logged}
+                    shopItems={shopItems} />
+            </div>
+            <div className="desktop">
+                
+            </div>
         </header>
     )
 }
