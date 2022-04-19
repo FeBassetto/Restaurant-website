@@ -20,11 +20,7 @@
     }
 }
 
-@media screen and (max-width:1400px) {
-    .background {
-        background-size: 600px 800px;
-    }
-}
+
 
 @media screen and (max-width:1400px) {
     .background {
@@ -40,11 +36,18 @@
 
 @media screen and (max-width:750px){
     .background{
-        background-size: 400px 700px;
+        background-size: 400px 600px;
     }
 }
 @media screen and (max-width:660px){
     .background{
-        background-size: 300px 600px;
+        background-size: 350px 500px;
+    }
+}
+
+@media screen and (max-width:550px){
+    .background{
+        background-size: 300px 350px;
+        background-position: 0rem -3rem;
     }
 }

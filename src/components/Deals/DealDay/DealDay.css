@@ -83,4 +83,29 @@
         grid-row: span 1;
         grid-column: span 2;
     }
+    .deals>*:first-child{
+        top: -3rem;
+        right: 5rem;
+    }
+}
+
+@media screen and (max-width:800px){
+    .sub--primary{
+        font-size: 1.75rem;
+    }
+    
+    .sub--secondary{
+        font-size: 1.5rem;
+    }
+}
+
+@media screen and (max-width:725px){
+    .sub--primary, .sub--secondary{
+        text-align: center;
+    }
+}
+@media screen and (max-width:475px){
+    .sub--primary, .sub--secondary{
+        font-size: 1.25rem;
+    }
 }

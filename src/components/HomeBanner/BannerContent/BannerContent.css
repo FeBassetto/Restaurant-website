@@ -88,4 +88,36 @@
     .content{
         height: 400px;
     }
+    .discountTitle{
+        font-size: 1rem;
+    }
+}
+@media screen and (max-width:550px){
+    .title{
+        font-size: 2rem;
+    }
+    .content{
+        height: 250px;
+    }
+    .discountTitle{
+        margin-left: .5rem;
+        font-size: .80rem;
+    }
+    .subPrice{
+        font-size: 1rem;
+    }
+}
+@media screen and (max-width:415px){
+    .title{
+        font-size: 2rem;
+    }
+    .content{
+        height: 250px;
+    }
+    .discountTitle{
+        font-size: .65rem;
+    }
+    .subPrice{
+        font-size: 1rem;
+    }
 }

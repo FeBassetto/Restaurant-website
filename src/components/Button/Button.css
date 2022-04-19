@@ -1,4 +1,4 @@
-.button{
+.button {
     border-radius: 50px;
 
     border: none;
@@ -9,20 +9,20 @@
     transition: .3s;
 }
 
-.button--discount{
+.button--discount {
     width: 16rem;
     height: 5rem;
     font-size: 2rem;
 }
 
-.button--product{
+.button--product {
     width: 19rem;
     height: 3.25rem;
     font-size: 2rem;
 }
 
 @media screen and (max-width:1080px) {
-    .button--discount{
+    .button--discount {
         width: 13rem;
         height: 4rem;
         font-size: 1.5rem;
@@ -30,9 +30,49 @@
 }
 
 @media screen and (max-width:1080px) {
-    .button--discount{
+    .button--discount {
         width: 13rem;
         height: 4rem;
         font-size: 1.5rem;
+    }
+}
+
+@media screen and (max-width:725px) {
+    .button--product {
+        width: 100%;
+    }
+}
+
+@media screen and (max-width:475px) {
+    .button--product {
+        font-size: 1.5rem;
+    }
+}
+
+@media screen and (max-width:400px) {
+    .button--product {
+        font-size: 1.25rem;
+    }
+}
+
+
+
+
+@media screen and (max-width:750px) {
+    .button--discount {
+        font-size: 1.25rem;
+        width: 13rem;
+        height: 3.5rem;
+    }
+}
+
+@media screen and (max-width:550px){
+    .button--discount {
+        font-size: .75rem;
+        width: 9rem;
+        height: 2rem;
+    }
+    .content{
+        width: 50%;
     }
 }

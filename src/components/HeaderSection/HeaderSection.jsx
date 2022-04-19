@@ -24,6 +24,9 @@ const Title = styled.h1`
     @media screen and (max-width:1000px){
         font-size:1.5rem;
     }
+    @media screen and (max-width:525px){
+        font-size:1rem;
+    }
 `
 
 const Sub = styled.h2`
@@ -41,6 +44,15 @@ const Sub = styled.h2`
     
     @media screen and (max-width:1000px){
         font-size:3rem;
+    }
+    @media screen and (max-width:525px){
+        font-size:2.5rem;
+    }
+    @media screen and (max-width:450px){
+        font-size:2rem;
+    }
+    @media screen and (max-width:430px){
+        font-size:1.75rem;
     }
 `
 

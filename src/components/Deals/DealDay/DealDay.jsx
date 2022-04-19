@@ -23,6 +23,37 @@ const Title = styled.h1`
             font-size:3rem;
         }
     }
+    @media screen and (max-width:900px){
+        &&{
+            font-size:2.5rem;
+        }
+    }
+    @media screen and (max-width:800px){
+        &&{
+            font-size:2.25rem;
+        }
+    }
+    @media screen and (max-width:725px){
+        &&{
+            text-align:center;
+            font-size:3.25rem;
+        }
+    }Pheader
+    @media screen and (max-width:570px){
+        &&{
+            font-size:2.5rem;
+        }
+    }
+    @media screen and (max-width:475px){
+        &&{
+            font-size:2rem;
+        }
+    }
+    @media screen and (max-width:420px){
+        &&{
+            font-size:1.75rem;
+        }
+    }
 `
 
 
