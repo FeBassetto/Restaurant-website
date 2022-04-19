@@ -11,6 +11,9 @@ const Background = styled.section`
     @media screen and (max-width:1000px){
         height:700px;
     }
+    @media screen and (max-width:660px){
+        height:600px;
+    }
 `
 
 const GreenBackground = (props) => {

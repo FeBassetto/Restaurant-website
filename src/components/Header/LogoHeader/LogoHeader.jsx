@@ -7,7 +7,7 @@ const LogoHeader = () => {
 
     return(
         <Link to="/">
-            <img src={Logo} alt="Logo" />
+            <img src={Logo} alt="Logo" className="logo" />
         </Link>
     )
 }

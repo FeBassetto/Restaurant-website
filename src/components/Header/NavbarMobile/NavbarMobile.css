@@ -108,3 +108,22 @@
 .Navbar__link:hover{
     color: #ffffff;
 }
+
+@media screen and (max-width:650px){
+    .Navbar__link{
+        font-size: 1.5rem;
+    }
+    .Navbar__user{
+        width: 200px;
+    }
+}
+
+
+@media screen and (max-width:460px) {
+    .userName{
+        display: none;
+    }
+    .Navbar__user{
+        width: 100px;
+    }
+}

@@ -80,3 +80,12 @@
         font-size: 1.25rem;
     }
 }
+
+@media screen and (max-width:660px){
+    .title{
+        font-size: 3rem;
+    }
+    .content{
+        height: 400px;
+    }
+}

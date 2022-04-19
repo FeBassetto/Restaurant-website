@@ -40,7 +40,7 @@ const NavbarMobile = ({ logged, shopItems, user }) => {
                     <Link to="/"
                         className="Navbar__link">
                         <AiOutlineUser />
-                        {logged ? user : "Cadastre-se"}
+                        <span className="userName">{logged ? user : "Cadastre-se"}</span>
                     </Link>
                 </li>
                 <li key="user-cart">

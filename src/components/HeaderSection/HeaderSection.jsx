@@ -13,12 +13,35 @@ const Head = styled.div`
 const Title = styled.h1`
     font-family:${props => props.theme.font.SubTitle};
     font-size:4rem;
+
+    @media screen and (max-width:1450px){
+        font-size:3rem;
+    }
+    
+    @media screen and (max-width:1450px){
+        font-size:2rem;
+    }
+    @media screen and (max-width:1000px){
+        font-size:1.5rem;
+    }
 `
 
 const Sub = styled.h2`
     font-family:${props => props.theme.font.SubTitle};
     font-size:6rem;
     width:70%;
+
+    @media screen and (max-width:1450px){
+        font-size:5rem;
+    }
+
+    @media screen and (max-width:1200px){
+        font-size:4rem;
+    }
+    
+    @media screen and (max-width:1000px){
+        font-size:3rem;
+    }
 `
 
 const HeaderSection = ({ title, sub, background }) => {

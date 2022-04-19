@@ -43,3 +43,8 @@
         background-size: 400px 700px;
     }
 }
+@media screen and (max-width:660px){
+    .background{
+        background-size: 300px 600px;
+    }
+}
