@@ -1,0 +1,14 @@
+.profile{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+}
+
+.profile__infos{
+    display: flex;
+    flex-direction: column;
+}
+
+.profile__infos > *{
+    margin: .5rem 2rem;
+}
