@@ -41,3 +41,31 @@
     color: #414141;
     font-size: 2rem;
 }
+
+@media screen and (max-width:800px){
+    .sponsoricon--foursquare p, .sponsoricon--tripadvisor p{
+        font-size: 1rem;
+    }
+
+    .sponsoricon--yelp p{
+        font-size: 1.75rem;
+    }
+}
+@media screen and (max-width:450px){
+    .sponsoricon--foursquare p, .sponsoricon--tripadvisor p{
+        font-size: .75rem;
+    }
+
+    .sponsoricon--yelp p{
+        font-size: 1.5rem;
+    }
+}
+@media screen and (max-width:325px){
+    .sponsoricon--foursquare p, .sponsoricon--tripadvisor p{
+        font-size: .5rem;
+    }
+
+    .sponsoricon--yelp p{
+        font-size: 1rem;
+    }
+}

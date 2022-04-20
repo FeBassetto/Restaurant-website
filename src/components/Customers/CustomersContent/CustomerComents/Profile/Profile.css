@@ -8,6 +8,10 @@
     margin: auto;
 }
 
+.profile img{
+    width: 150px;
+}
+
 .profile__infos{
     display: flex;
     flex-direction: column;
@@ -15,4 +19,23 @@
 
 .profile__infos > *{
     margin: .5rem 2rem;
+}
+
+@media screen and (min-width:1800px){
+    .profile img{
+        width: 200px;
+    }
+}
+
+@media screen and (max-width:950px){
+    .profile{
+        flex-direction: column;
+        text-align: center;
+    }
+}
+
+@media screen and (max-width:450px){
+    .profile img{
+        width: 100px;
+    }
 }

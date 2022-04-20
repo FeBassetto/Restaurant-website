@@ -13,7 +13,7 @@ const StyledButton = styled.button`
         cursor:pointer;
     }
     &&:active{
-        box-shadow: 0px 2px 2px 0px #ffffffff; 
+        box-shadow: 0px 0px 0px .125em #ffffff30; 
         transition:0s; 
     }
 

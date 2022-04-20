@@ -7,3 +7,14 @@
 .coment__container > *{
     padding-bottom: 2rem;
 }
+
+@media screen and (max-width:950px){
+    .coment__container > *{
+        padding-bottom: 1rem;
+    }
+}
+@media screen and (max-width:680px){
+    .coment__container > *{
+        padding-bottom: .75rem;
+    }
+}

@@ -9,3 +9,9 @@
 .leftComents > *{
     padding-bottom: 3rem;
 }
+
+@media screen and (max-width:950px){
+    .leftComents > *{
+        padding-bottom: 1rem;
+    }
+}

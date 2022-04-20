@@ -5,3 +5,49 @@
 
     position: relative;
 }
+
+@media screen and (max-width:1450px) {
+    .customers{
+        height: 1700px;
+    }
+}
+@media screen and (max-width:1200px) {
+    .customers{
+        height: 1600px;
+    }
+}
+@media screen and (max-width:1100px) {
+    .customers{
+        height: 1400px;
+    }
+}
+@media screen and (max-width:950px) {
+    .customers{
+        height: 1600px;
+    }
+}
+@media screen and (max-width:600px) {
+    .customers{
+        height: 1400px;
+    }
+}
+@media screen and (max-width:560px) {
+    .customers{
+        height: 1500px;
+    }
+}
+@media screen and (max-width:500px) {
+    .customers{
+        height: 1400px;
+    }
+}
+@media screen and (max-width:450px) {
+    .customers{
+        height: 1250px;
+    }
+}
+@media screen and (max-width:350px) {
+    .customers{
+        height: 1350px;
+    }
+}

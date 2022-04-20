@@ -13,3 +13,64 @@
 .coment--secondary{
     font-size: 1.25rem;
 }
+
+@media screen and (min-width:1600px){
+    .coment--primary{
+        font-size: 2.75rem;
+    }
+    
+    .coment--secondary{
+        font-size: 1.5rem;
+    } 
+}
+@media screen and (max-width:1350px){
+    .coment--primary{
+        font-size: 2rem;
+    }
+    
+    .coment--secondary{
+        font-size: 1.25rem;
+    } 
+}
+@media screen and (max-width:1100px){
+    .coment--primary{
+        font-size: 1.75rem;
+    }
+    
+    .coment--secondary{
+        font-size: 1rem;
+    } 
+}
+@media screen and (max-width:750px){
+    .coment--primary{
+        font-size: 1.5rem;
+    }
+    
+    .coment--secondary{
+        font-size: 1rem;
+    } 
+}
+@media screen and (max-width:650px){
+    .coment{
+        width: 95%;
+        text-align: center;
+    } 
+}
+@media screen and (max-width:500px){
+    .coment--primary{
+        font-size: 1.25rem;
+    }
+    .coment--secondary{
+        font-size: .75rem;
+    } 
+}
+@media screen and (max-width:450px){
+    .coment--primary{
+        font-size: 1rem;
+    }
+}
+@media screen and (max-width:350px){
+    .coment--primary{
+        font-size: .75rem;
+    }
+}

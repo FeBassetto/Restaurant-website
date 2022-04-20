@@ -34,3 +34,46 @@
     position: relative;
     z-index: 99;
 }
+
+@media screen and (min-width:1700px){
+    .customerContent::before{
+        left: 5rem;
+    }
+}
+@media screen and (min-width:1900px){
+    .customerContent::before{
+        left: 10rem;
+    }
+}
+@media screen and (max-width:1200px){
+    .customerContent::before{
+        font-size: 30rem;
+        top: -10rem;
+    }
+    .customerContent::before{
+        font-size: 20rem;
+        top: -5rem;
+        left: 5rem;
+    }
+}
+@media screen and (max-width:900px){
+    .customerContent{
+        width: 85%;
+    }
+}
+@media screen and (max-width:780px){
+    .customerContent::before{
+        left: 0;
+    }
+}
+@media screen and (max-width:600px){
+    .customerContent{
+        width: 100%;
+    }
+}
+@media screen and (max-width:450px){
+    .customerContent::before{
+        font-size: 10rem;
+        top: 0rem;
+    }
+}

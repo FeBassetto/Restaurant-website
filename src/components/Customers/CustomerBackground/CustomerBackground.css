@@ -12,3 +12,9 @@
     z-index: 1;
 }
 
+@media screen and (max-width:600px){
+    .customerBackground{
+        display: none;
+    }
+}
+

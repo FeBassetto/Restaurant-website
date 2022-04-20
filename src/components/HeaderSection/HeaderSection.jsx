@@ -18,12 +18,8 @@ const Title = styled.h1`
     font-family:${props => props.theme.font.SubTitle};
     font-size:4rem;
 
-    @media screen and (max-width:1450px){
+    @media screen and (max-width:1500px){
         font-size:3rem;
-    }
-    
-    @media screen and (max-width:1450px){
-        font-size:2rem;
     }
     @media screen and (max-width:1000px){
         font-size:1.5rem;
@@ -38,14 +34,22 @@ const Sub = styled.h2`
     font-size:6rem;
     width:70%;
 
+    @media screen and (max-width:1550px){
+        font-size:5.5rem;
+    }
     @media screen and (max-width:1450px){
         font-size:5rem;
+    }
+    @media screen and (max-width:1300px){
+        font-size:4.5rem;
     }
 
     @media screen and (max-width:1200px){
         font-size:4rem;
     }
-    
+    @media screen and (max-width:1100px){
+        font-size:3.5rem;
+    }
     @media screen and (max-width:1000px){
         font-size:3rem;
     }
