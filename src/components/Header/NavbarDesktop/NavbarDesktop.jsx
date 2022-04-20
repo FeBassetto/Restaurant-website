@@ -2,7 +2,7 @@ import React from "react";
 import { Link } from "react-router-dom";
 import './NavbarDesktop.css';
 import { AiOutlineUser } from 'react-icons/ai'
-import Cart from './../../cart/cart';
+import Cart from '../../Cart/Cart';
 
 const NavbarDesktop = ({ logged, shopItems, user }) => {
 

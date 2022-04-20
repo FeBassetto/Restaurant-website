@@ -1,6 +1,6 @@
 import React from "react";
 import { MdShoppingCart } from 'react-icons/md';
-import './cart.css'
+import './Cart.css'
 
 const Cart = ({number}) => {
 

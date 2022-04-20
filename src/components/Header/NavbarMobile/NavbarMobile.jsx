@@ -4,7 +4,7 @@ import { GiHamburgerMenu } from 'react-icons/gi'
 import { AiOutlineUser } from 'react-icons/ai'
 import { AiOutlineClose } from 'react-icons/ai'
 import './NavbarMobile.css'
-import Cart from "../../cart/cart";
+import Cart from "../../Cart/Cart";
 
 
 const NavbarMobile = ({ logged, shopItems, user }) => {
