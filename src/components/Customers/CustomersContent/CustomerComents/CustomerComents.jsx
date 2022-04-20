@@ -1,6 +1,7 @@
 import React from "react";
 import './CustomerComents.css';
 import LeftComents from "./LeftComents/LeftComents";
+import RightComents from "./RightComents/RightComents";
 
 
 const CustomerComents = () => {
@@ -10,6 +11,7 @@ const CustomerComents = () => {
     return (
         <div className="customerComents">
             <LeftComents />
+            <RightComents />
         </div>
     )
 }

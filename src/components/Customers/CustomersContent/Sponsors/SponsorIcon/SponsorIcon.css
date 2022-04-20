@@ -1,0 +1,43 @@
+.sponsoricon{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+
+    width: 100%;
+    height: 100%;
+}
+
+.sponsoricon img{
+    width: 25%;
+}
+
+.sponsoricon p{
+    text-transform: uppercase;
+    font-family: InterBold;
+}
+
+.sponsoricon--foursquare p{
+    color: #3506BD;
+    font-size: 1.5rem;
+}
+
+.sponsoricon--tripadvisor img{
+    background-color: green;
+
+    border-radius: 50%;
+
+    padding: .5rem;
+    box-sizing: border-box;
+    
+}
+
+.sponsoricon--tripadvisor p{
+    color: #000000;
+    font-size: 1.5rem;
+}
+
+.sponsoricon--yelp{
+    color: #414141;
+    font-size: 2rem;
+}

@@ -6,7 +6,7 @@ import styled from 'styled-components';
 const Username = styled.p`
     font-family: ${props => props.theme.font.SecondText};
     color: ${props => props.theme.colors.darkGreyBorder};
-    font-size: 1.5rem;
+    font-size: 1.75rem;
 `
 
 const Reviews = styled.p`

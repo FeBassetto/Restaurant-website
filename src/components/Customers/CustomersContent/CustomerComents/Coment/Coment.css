@@ -1,0 +1,15 @@
+.coment{
+    color: #4D4D4D;
+
+    width: 90%;
+
+    margin: auto;
+}
+
+.coment--primary{
+    font-size: 2.45rem;
+}
+
+.coment--secondary{
+    font-size: 1.25rem;
+}

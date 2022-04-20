@@ -1,0 +1,10 @@
+.sponsors{
+    height: 20%;
+
+    display: grid;
+    grid-template-columns: repeat(6, 1fr);
+}
+
+.sponsors > *{
+    grid-column: span 2;
+}

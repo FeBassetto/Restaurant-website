@@ -1,0 +1,14 @@
+.customerBackground{
+    position: absolute;
+
+    height: 90%;
+    width: 100%;
+
+    top: 20rem;
+
+    background-image: url(../../../assets/img/backgroundCustomers.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+    z-index: 1;
+}
+
