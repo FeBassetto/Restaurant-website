@@ -66,13 +66,8 @@
     }
 }
 
-@media screen and (max-width:550px){
-    .button--discount {
-        font-size: .75rem;
-        width: 9rem;
-        height: 2rem;
-    }
-    .content{
-        width: 50%;
+@media screen and (max-width:400px){
+    .button--discount{
+        width: 100%;
     }
 }

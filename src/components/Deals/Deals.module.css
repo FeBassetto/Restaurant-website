@@ -12,3 +12,9 @@
         grid-template-rows: repeat(3, 1fr);
     }
 }
+
+@media screen and (max-width:476px){
+    .container{
+        height: 1500px;
+    }
+}

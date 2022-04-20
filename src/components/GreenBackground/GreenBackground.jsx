@@ -12,10 +12,7 @@ const Background = styled.section`
         height:700px;
     }
     @media screen and (max-width:660px){
-        height:600px;
-    }
-    @media screen and (max-width:550px){
-        height:400px;
+        height:500px;
     }
 `
 

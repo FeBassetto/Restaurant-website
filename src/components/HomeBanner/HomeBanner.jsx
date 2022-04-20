@@ -10,7 +10,7 @@ const HomeBanner = () => {
         title: "The Smoking Burger",
         discount: "15%",
         discountText: "Desconto",
-        discountTitle: "Na sua primeira encomenda, se encomendar através do nosso Site!",
+        discountTitle: "Na sua primeira encomenda, caso encomende através do nosso Site!",
         buttonText: "Compre Online"
     }
 

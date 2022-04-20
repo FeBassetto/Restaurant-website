@@ -95,18 +95,55 @@
     }
 }
 
-@media screen and (max-width:550px){
+@media screen and (max-width:600px){
+    .circle__text {
+        font-size: 1.4rem;
+        line-height: 1.5;
+    }
+    
+    .circle__price {
+        font-size: 3rem;
+    }
+    
+    .circle--price{
+        width: 150px;
+        height: 150px;
+    }
+}
+
+@media screen and (max-width:425px){
+    .circle__text {
+        font-size: 1rem;
+        line-height: 1.5;
+    }
+    
+    .circle__price {
+        font-size: 2rem;
+    }
+    
+    .circle--price{
+        width: 100px;
+        height: 100px;
+    }
+}
+
+@media screen and (max-width:400px){
     .circle--discount {
-        width: 60px;
-        height: 60px;
+        width: 70px;
+        height: 70px;
+        margin-left: 2rem;
     }
     .circle--discount p:first-child {
         font-family: 'RobotoRegular', sans-serif;
-        font-size: .75rem;
+        font-size: .5rem;
     }
     
     .circle--discount p:last-child {
-        font-size: 1.75rem;
+        font-size: 2.25rem;
     }
 }
+
+
+
+
 

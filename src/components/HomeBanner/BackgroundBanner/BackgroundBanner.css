@@ -42,12 +42,30 @@
 @media screen and (max-width:660px){
     .background{
         background-size: 350px 500px;
+        background-position: 0rem -3rem;
     }
 }
 
 @media screen and (max-width:550px){
     .background{
-        background-size: 300px 350px;
+        background-size: 300px 450px;
         background-position: 0rem -3rem;
+    }
+}
+@media screen and (max-width:450px){
+    .background{
+        background-size: 250px 450px;
+        background-position: -2rem -3rem;
+    }
+}
+@media screen and (max-width:400px){
+    .background{
+        background-size: 250px 450px;
+        background-position: -1rem -3rem;
+    }
+}
+@media screen and (max-width:400px){
+    .background{
+        display: none;
     }
 }

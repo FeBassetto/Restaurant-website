@@ -1,8 +1,34 @@
 .backgroundIngredients {
-    height: 100%;
+    height: 1200px;
 
     background-image: url(../../../assets/img/backgroundPartsofBurguer.png);
     background-repeat: no-repeat;
     background-size: 90% 100%;
     background-position: center;
+}
+
+@media screen and (max-width:1400px){
+    .backgroundIngredients{
+        height: 1000px;
+    }
+}
+@media screen and (max-width:1100px){
+    .backgroundIngredients{
+        height: 800px;
+    }
+}
+@media screen and (max-width:850px){
+    .backgroundIngredients{
+        height: 600px;
+    }
+}
+@media screen and (max-width:600px){
+    .backgroundIngredients{
+        height: 500px;
+    }
+}
+@media screen and (max-width:450px){
+    .backgroundIngredients{
+        height: 300px;
+    }
 }

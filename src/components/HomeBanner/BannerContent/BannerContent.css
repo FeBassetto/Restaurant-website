@@ -92,30 +92,25 @@
         font-size: 1rem;
     }
 }
-@media screen and (max-width:550px){
-    .title{
-        font-size: 2rem;
-    }
+@media screen and (max-width:400px){
     .content{
-        height: 250px;
+        width: 100%;
+        padding: 0;
     }
-    .discountTitle{
-        margin-left: .5rem;
-        font-size: .80rem;
+    .title{
+        text-align: center;
     }
     .subPrice{
-        font-size: 1rem;
+        text-align: center;
+    }
+    .buttonPrice{
+        width: 90%;
+        margin: auto;
     }
 }
-@media screen and (max-width:415px){
+@media screen and (max-width:325px){
     .title{
-        font-size: 2rem;
-    }
-    .content{
-        height: 250px;
-    }
-    .discountTitle{
-        font-size: .65rem;
+        font-size: 2.5rem;
     }
     .subPrice{
         font-size: 1rem;

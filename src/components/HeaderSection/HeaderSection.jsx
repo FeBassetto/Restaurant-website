@@ -8,6 +8,10 @@ const Head = styled.div`
     display:flex;
     align-items:center;
     flex-direction:column;
+
+    @media screen and (max-width:780px){
+        padding: 5rem 0rem;
+    }
 `
 
 const Title = styled.h1`

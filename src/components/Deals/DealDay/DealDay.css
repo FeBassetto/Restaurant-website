@@ -21,7 +21,8 @@
     background-repeat: no-repeat;
     filter: brightness(0.4);
 }
-.deals > h1{
+
+.deals>h1 {
     margin-bottom: 3rem;
 }
 
@@ -47,65 +48,81 @@
     background-image: url(../../../assets/img/hamburguerBanner_2.png);
 }
 
-.sub{
+.sub {
     margin-bottom: .25rem;
 }
 
-.sub--primary{
+.sub--primary {
     font-size: 2.5rem;
 }
 
-.sub--secondary{
+.sub--secondary {
     font-size: 1.75rem;
 }
 
-.deals>*:first-child{
+.deals>*:first-child {
     position: absolute;
-    top:-2rem;
+    top: -2rem;
 }
 
-@media screen and (max-width:1325px){
-    .sub--primary{
+@media screen and (max-width:1325px) {
+    .sub--primary {
         font-size: 2rem;
     }
-    
-    .sub--secondary{
+
+    .sub--secondary {
         font-size: 1.5rem;
     }
 }
 
-@media screen and (max-width:1225px){
+@media screen and (max-width:1225px) {
     .primary {
         grid-row: span 1;
         grid-column: span 2;
     }
+
     .secondary {
         grid-row: span 1;
         grid-column: span 2;
     }
-    .deals>*:first-child{
+
+    .deals>*:first-child {
         top: -3rem;
         right: 5rem;
     }
 }
 
-@media screen and (max-width:800px){
-    .sub--primary{
+@media screen and (max-width:800px) {
+    .sub--primary {
         font-size: 1.75rem;
     }
-    
-    .sub--secondary{
+
+    .sub--secondary {
         font-size: 1.5rem;
     }
 }
 
-@media screen and (max-width:725px){
-    .sub--primary, .sub--secondary{
+@media screen and (max-width:725px) {
+
+    .sub--primary,
+    .sub--secondary {
         text-align: center;
     }
 }
-@media screen and (max-width:475px){
-    .sub--primary, .sub--secondary{
-        font-size: 1.25rem;
+
+@media screen and (max-width:475px) {
+
+    .sub--primary,
+    .sub--secondary {
+        font-size: 1rem;
+    }
+
+    .deals>*:first-child {
+        top: -3rem;
+        right: 3rem;
+    }
+
+    .deals{
+        padding: 5rem 2rem;
     }
 }

@@ -38,7 +38,7 @@ const Title = styled.h1`
             text-align:center;
             font-size:3.25rem;
         }
-    }Pheader
+    }
     @media screen and (max-width:570px){
         &&{
             font-size:2.5rem;
@@ -51,7 +51,9 @@ const Title = styled.h1`
     }
     @media screen and (max-width:420px){
         &&{
-            font-size:1.75rem;
+            font-size:1.5rem;
+            line-height:3rem;
+            width:100%;
         }
     }
 `
