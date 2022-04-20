@@ -1,6 +1,7 @@
 import React from "react";
 import HeaderSection from "../HeaderSection/HeaderSection";
 import './Outlet.css'
+import OutletContent from "./OutletContent/OutletContent";
 
 
 const Outlet = () => {
@@ -13,7 +14,7 @@ const Outlet = () => {
                 title="Nossos Outlets"
                 sub="Encontre um Outlet próximo a você"
             />
-            
+            <OutletContent/>
         </section>
     )
 }

@@ -19,7 +19,7 @@ const NavbarMobile = ({ logged, shopItems, user }) => {
                 item.addEventListener('click', activeHamburguer)
             }
         }
-    }, [activeMenu])
+    }, [activeMenu,activeHamburguer, items])
 
     function activeHamburguer() {
         if (!activeMenu) {
