@@ -1,0 +1,40 @@
+.benefits{
+    background-color: #FAAB34;
+
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+
+    height: 500px;
+}
+
+.benefits > *{
+    margin-top: -6rem;
+    justify-self: center;
+}
+
+@media screen and (max-width:1350px){
+    .benefits{
+        height: 1500px;
+        grid-template-columns: 1fr;
+    }
+
+    .benefits > *{
+        margin-top: 0rem;
+    }
+}
+
+@media screen and (max-width:850px) {
+    .benefits{
+        padding-bottom: 5rem;
+    }
+}
+@media screen and (max-width:600px) {
+    .benefits{
+        padding-bottom: 10rem;
+    }
+}
+@media screen and (max-width:400px) {
+    .benefits{
+        height: 1000px;
+    }
+}

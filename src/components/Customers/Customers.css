@@ -38,16 +38,17 @@
 }
 @media screen and (max-width:500px) {
     .customers{
-        height: 1400px;
+        height: 1300px;
     }
 }
 @media screen and (max-width:450px) {
     .customers{
-        height: 1250px;
+        height: 1200px;
     }
 }
 @media screen and (max-width:350px) {
     .customers{
-        height: 1350px;
+        height: 1200px;
+        padding-bottom: -2rem;
     }
 }

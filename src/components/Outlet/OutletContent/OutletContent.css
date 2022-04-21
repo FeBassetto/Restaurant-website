@@ -1,11 +1,12 @@
 .outletContent{
-    height: 1300px;
+    height: auto;
 
     display: flex;
     flex-direction: column;
     align-items: center;
 
     margin-top: -2rem;
+    padding-bottom: 10rem;
 }
 .border__header{
     width: 1%;

@@ -17,8 +17,11 @@ const Username = styled.p`
     @media screen and (max-width:450px){
         font-size:1.75rem;
     }
-    @media screen and (max-width:325px){
+    @media screen and (max-width:400px){
         font-size:1.25rem;
+    }
+    @media screen and (max-width:315px){
+        font-size:1rem;
     }
 `
 
@@ -36,7 +39,7 @@ const Reviews = styled.p`
     @media screen and (max-width:450px){
         font-size:1rem;
     }
-    @media screen and (max-width:325px){
+    @media screen and (max-width:400px){
         font-size:.75rem;
     }
 `

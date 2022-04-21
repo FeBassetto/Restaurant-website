@@ -78,4 +78,8 @@
     .box {
         height: 545px;
     }
+    .box__image{
+        height: 12rem;
+        top: 3rem;
+    }
 }
