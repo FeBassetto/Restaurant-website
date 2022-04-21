@@ -1,0 +1,143 @@
+.boxOutlet {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 2rem;
+
+    width: calc(100% - 40px);
+    text-align: center;
+    justify-self: center;
+}
+
+.boxOutlet__image {
+    width: 100%;
+}
+
+.boxOutlet__icon {
+    color: #FAAB34;
+    font-size: 4rem;
+}
+
+.boxOutlet__local {
+    color: #000000;
+    font-size: 2rem;
+    font-family: RobotoMedium;
+    width: 95%;
+}
+
+.boxOutlet__tel {
+    color: #C90000;
+    font-family: RobotoMedium;
+    font-size: 2rem;
+}
+
+@media screen and (min-width:1800px) {
+    .boxOutlet__local {
+        width: 80%;
+    }
+}
+
+@media screen and (max-width:1350px) {
+    .boxOutlet {
+        display: grid;
+        grid-template-areas:
+            "image icon local local"
+            "image icon tel tel"
+        ;
+
+        box-shadow: 0px 0px 1rem #0000009d;
+        border-radius: 20px;
+
+        margin-bottom: 2rem;
+
+        gap: 1rem;
+    }
+
+    .boxOutlet:nth-of-type(2) {
+        grid-template-areas:
+            "local local icon image"
+            "tel tel icon image"
+        ;
+    }
+
+    .boxOutlet__image {
+        width: 600px;
+        grid-area: image;
+    }
+
+    .boxOutlet__icon {
+        grid-area: icon;
+        align-self: center;
+        justify-self: center;
+    }
+
+    .boxOutlet__local {
+        grid-area: local;
+        align-self: flex-end;
+        justify-self: center;
+        width: 80%;
+    }
+
+    .boxOutlet__tel {
+        grid-area: tel;
+        align-self: flex-start;
+    }
+}
+
+@media screen and (max-width:1100px) {
+    .boxOutlet__image {
+        width: 400px;
+    }
+}
+
+@media screen and (max-width:900px) {
+    .boxOutlet, .boxOutlet:nth-of-type(2) {
+        grid-template-areas:
+            "image image image"
+            "icon local local"
+            "tel tel tel"
+        ;
+
+        padding-bottom: 3rem;
+    }
+
+    .boxOutlet__image {
+        width: 100%;
+    }
+
+    .boxOutlet__icon {
+        justify-self: center;
+        align-self: center;
+    }
+
+    .boxOutlet__local{
+        width: 90%;
+        align-self: center;
+        justify-self: flex-start;
+        text-align: left;
+        font-size: 1.75rem;
+    }
+}
+
+@media screen and (max-width:600px){
+    .boxOutlet__local{
+        text-align: center;
+    }
+}
+@media screen and (max-width:500px){
+    .boxOutlet__local{
+        font-size: 1.5rem;
+    }
+    .boxOutlet__tel{
+        font-size: 1.5rem;
+    }
+}
+@media screen and (max-width:450px){
+    .boxOutlet__local{
+        font-size: 1rem;
+        width: 100%;
+    }
+    .boxOutlet__tel{
+        font-size: 1.25rem;
+    }
+}

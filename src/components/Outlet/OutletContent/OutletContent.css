@@ -1,13 +1,32 @@
 .outletContent{
-    height: 1000px;
+    height: 1300px;
+
     display: flex;
     flex-direction: column;
     align-items: center;
+
     margin-top: -2rem;
 }
-.border-header{
+.border__header{
     width: 1%;
-    height: 14%;
+    height: 10%;
+
     background-color: #4D4D4D;
+
     border-radius: 20px;
+}
+
+.outlets__container{
+    width: 95%;
+
+    margin-top: 6rem;
+
+    display: grid;
+    grid-template-columns: repeat(3,1fr);
+}
+
+@media screen and (max-width:1350px){
+    .outlets__container{
+        grid-template-columns: 1fr;
+    }
 }
