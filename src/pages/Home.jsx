@@ -1,4 +1,5 @@
 import React from "react";
+import Benefits from "../components/Benefits/Benefits";
 import Customers from "../components/Customers/Customers";
 import Deals from "../components/Deals/Deals";
 import GreenBackground from "../components/GreenBackground/GreenBackground";
@@ -20,6 +21,7 @@ const Home = () => {
             <HomeMenu/>
             <Customers/>
             <Outlet/>
+            <Benefits/>
         </>
     )
 }
