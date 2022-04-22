@@ -1,7 +1,8 @@
 import React from "react";
 import './Footer.css'
-import FooterBottom from "./FooterBottomDesktop/FooterBottomDesktop";
-import FooterTop from "./FooterTopDesktop/FooterTopDesktop";
+import FooterBottomDesktop from "./FooterBottomDesktop/FooterBottomDesktop";
+import FooterTopDesktop from "./FooterTopDesktop/FooterTopDesktop";
+import FooterTopMobile from './FooterTopMobile/FooterTopMobile';
 
 
 const Footer = () => {
@@ -10,11 +11,11 @@ const Footer = () => {
     return (
         <footer className="footer">
             <div className="desktop__footer">
-                <FooterTop/>
-                <FooterBottom/>
+                <FooterTopDesktop/>
+                <FooterBottomDesktop/>
             </div>
             <div className="mobile__footer">
-                
+                <FooterTopMobile/>
             </div>
         </footer>
     )

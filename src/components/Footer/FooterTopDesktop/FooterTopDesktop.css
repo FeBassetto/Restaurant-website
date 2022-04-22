@@ -8,6 +8,7 @@
     border-bottom: #414141 solid 2px;
 
     padding-top: 2rem;
+    box-sizing: border-box;
 }
 
 .footerTop__navigation{
