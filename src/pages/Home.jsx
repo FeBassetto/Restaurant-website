@@ -1,4 +1,5 @@
 import React from "react";
+import AppDiscount from "../components/AppDiscount/AppDiscount";
 import Benefits from "../components/Benefits/Benefits";
 import Customers from "../components/Customers/Customers";
 import Deals from "../components/Deals/Deals";
@@ -22,6 +23,7 @@ const Home = () => {
             <Customers/>
             <Outlet/>
             <Benefits/>
+            <AppDiscount/>
         </>
     )
 }
