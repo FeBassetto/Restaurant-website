@@ -2,10 +2,30 @@
     display: grid;
     grid-template-columns: .8fr 1.2fr;
 
-    height: 1000px;
+    height: 60vw;
     width: 100%;
     position: relative;
 
     background: rgb(1, 126, 13);
     background: linear-gradient(180deg, rgba(1, 126, 13, 1) 0%, rgba(48, 150, 0, 1) 100%);
+}
+
+@media screen and (max-width:1350px) {
+    .appDiscount{
+        height: 60vw;
+    }
+}
+
+@media screen and (max-width:850px){
+    .appDiscount{
+        grid-template-columns: 1fr;
+        grid-template-rows: 1fr 1fr;
+        height: 150vw;
+    }
+}
+
+@media screen and (max-width:400px){
+    .appDiscount{
+        height: 200vw;
+    }
 }

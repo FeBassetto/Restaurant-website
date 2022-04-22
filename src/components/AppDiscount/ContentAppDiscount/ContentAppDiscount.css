@@ -12,7 +12,7 @@
     align-items: center;
     justify-content: center;
 
-    height: 50%;
+    height: 30vw;
 
     box-sizing: border-box;
     width: 100%;
@@ -23,7 +23,7 @@
     grid-column: span 2;
     
     color: #ffffff;
-    font-size: 5rem;
+    font-size: 5vw;
     font-family: RobotoExtraBold;
 
     width: 100%;
@@ -34,7 +34,7 @@
 
     color: #ffffff;
     font-family: RobotoMedium;
-    font-size: 2.5rem;
+    font-size: 2.5vw;
 
     align-self: flex-start;
 }
@@ -46,4 +46,24 @@
 .contentAppDiscount__icon:hover{
     cursor: pointer;
     filter: brightness(.7);
+}
+
+.contentAppDiscount__icon--IOS{
+    width: 80%;
+}
+
+.contentAppDiscount__icon--playStore{
+    width: 100%;
+}
+
+@media screen and (max-width:850px){
+    .contentAppDiscount__title{
+        font-size: 8vw;
+        text-align: center;
+    }
+    .contentAppDiscount__sub{
+        padding: 6vw 0;
+        font-size: 4vw;
+        text-align: center;
+    }
 }

@@ -18,7 +18,7 @@ const ContentAppDiscount = ({ title, sub }) => {
                     src={PlayStore}
                     alt="Play Store icon"
                     className="contentAppDiscount__icon 
-                contentAppDiscount__icon--playsStore" />
+                contentAppDiscount__icon--playStore" />
                 <img
                     src={IOS}
                     alt="IOS store icon"

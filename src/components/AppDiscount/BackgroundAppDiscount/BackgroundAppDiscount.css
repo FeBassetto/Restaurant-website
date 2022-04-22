@@ -20,3 +20,14 @@
 
     z-index: 99;
 }
+
+@media screen and (max-width:850px){
+    .backgroundAppDiscount{
+        padding-top: 5rem;
+        box-sizing: border-box;
+    }
+    .backgroundAppDiscount__background::after{
+        width: 100%;
+        background-size: contain;
+    }
+}
