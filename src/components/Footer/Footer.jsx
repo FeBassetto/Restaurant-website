@@ -3,6 +3,7 @@ import './Footer.css'
 import FooterBottomDesktop from "./FooterBottomDesktop/FooterBottomDesktop";
 import FooterTopDesktop from "./FooterTopDesktop/FooterTopDesktop";
 import FooterTopMobile from './FooterTopMobile/FooterTopMobile';
+import FooterBottomMobile from './FooterBottomMobile/FooterBottomMobile';
 
 
 const Footer = () => {
@@ -16,6 +17,7 @@ const Footer = () => {
             </div>
             <div className="mobile__footer">
                 <FooterTopMobile/>
+                <FooterBottomMobile/>
             </div>
         </footer>
     )

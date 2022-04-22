@@ -4,7 +4,7 @@
     display: flex;
     align-items: center;
 
-    background-color: #bebebe;
+    background-color: #cccccc;
 
     border-bottom: #4d4d4d solid 2px;
 }
@@ -28,5 +28,5 @@
 }
 
 .navMobile__link:hover{
-    background-color: #cfcece;
+    background-color: #dddddd;
 }

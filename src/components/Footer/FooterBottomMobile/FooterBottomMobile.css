@@ -1,0 +1,23 @@
+.footerBottomMobile{
+    padding: 10vw;
+    background-color: #919191;
+
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    font-family: RobotoBold;
+}
+
+.footerBottomMobile > *:nth-child(1){
+    padding-bottom: 4vw;
+    font-size: 5vw;
+    color: #dddddd;
+
+}
+
+.footerBottomMobile > *:nth-child(2){
+    color: #dddddd;
+    font-size: 2.5vw;
+    text-align: center;
+}
