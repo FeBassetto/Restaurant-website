@@ -1,8 +1,22 @@
-.backgroundAppDiscount{
+.backgroundAppDiscount {
+    position: relative;
+    height: 100%;
+    width: 100%;
+    position: relative;
+}
+
+.backgroundAppDiscount__background::after {
     position: absolute;
+    content: "";
+
+
+    background-image: url(../../../assets/img/phone_background.png);
+    background-size: 80%;
+    background-repeat: no-repeat;
+    background-position: center;
 
     height: 100%;
-    width: 50%;
+    width: 100%;
 
-    z-index: -1;
+    z-index: 99;
 }

@@ -9,8 +9,7 @@ const BackgroundAppDiscount = () => {
 
     return (
         <div className="backgroundAppDiscount">
-            <GreenBackground>
-            </GreenBackground>
+            <div className="backgroundAppDiscount__background"></div>
         </div>
     )
 }

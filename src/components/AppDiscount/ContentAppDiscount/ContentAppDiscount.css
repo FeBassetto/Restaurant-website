@@ -1,0 +1,49 @@
+.contentAppDiscount{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+}
+
+.contentAppDiscount__container{
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+
+    align-items: center;
+    justify-content: center;
+
+    height: 50%;
+
+    box-sizing: border-box;
+    width: 100%;
+    padding: 1rem;
+}
+
+.contentAppDiscount__title{
+    grid-column: span 2;
+    
+    color: #ffffff;
+    font-size: 5rem;
+    font-family: RobotoExtraBold;
+
+    width: 100%;
+}
+
+.contentAppDiscount__sub{
+    grid-column: span 2;
+
+    color: #ffffff;
+    font-family: RobotoMedium;
+    font-size: 2.5rem;
+
+    align-self: flex-start;
+}
+
+.contentAppDiscount__icon{
+    justify-self: center;
+}
+
+.contentAppDiscount__icon:hover{
+    cursor: pointer;
+    filter: brightness(.7);
+}

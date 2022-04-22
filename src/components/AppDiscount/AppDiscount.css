@@ -1,19 +1,11 @@
-.appDiscount{
+.appDiscount {
     display: grid;
-    grid-template-columns: 1fr 1fr;
+    grid-template-columns: .8fr 1.2fr;
 
     height: 1000px;
     width: 100%;
     position: relative;
-}
 
-.appDiscount::after{
-    content: "";
-    background-image: url(../../assets/img/phone_background.png);
-    background-size: 50%;
-    background-repeat: no-repeat;
-    background-position: center;
-
-    
-    z-index: 99;
+    background: rgb(1, 126, 13);
+    background: linear-gradient(180deg, rgba(1, 126, 13, 1) 0%, rgba(48, 150, 0, 1) 100%);
 }
