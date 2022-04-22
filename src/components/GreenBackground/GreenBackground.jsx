@@ -2,7 +2,7 @@ import React from "react";
 import styled from 'styled-components';
 
 
-const Background = styled.section`
+const BackgroundBanner = styled.section`
     background: rgb(77,255,95);
     background: radial-gradient(circle, rgba(77,255,95,1) 0%, rgba(6,152,21,1) 48%, rgba(1,126,13,1) 100%);
     height: 900px;
@@ -16,13 +16,25 @@ const Background = styled.section`
     }
 `
 
-const GreenBackground = (props) => {
+const Background = styled.section`
+    background: rgb(77,255,95);
+    background: radial-gradient(circle, rgba(77,255,95,1) 0%, rgba(6,152,21,1) 48%, rgba(1,126,13,1) 100%);
+    height: 100%;
+    padding-bottom:3rem;
+    box-sizing:border-box;
+`
+
+const GreenBackground = ({ children, type }) => {
 
 
     return (
-        <Background>
-            {props.children}
-        </Background>
+        type === "banner" ?
+            <BackgroundBanner>
+                {children}
+            </BackgroundBanner> :
+            <Background>
+                {children}
+            </Background>
     )
 }
 

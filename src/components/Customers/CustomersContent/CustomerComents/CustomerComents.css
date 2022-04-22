@@ -48,4 +48,9 @@
         margin-top: -6.5rem;
     }
 }
+@media screen and (max-width:290px){
+    .customerComents{
+        margin-top: -5rem;
+    }
+}
 

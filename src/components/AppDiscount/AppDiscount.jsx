@@ -1,5 +1,6 @@
 import React from 'react'
 import './AppDiscount.css'
+import BackgroundAppDiscount from './BackgroundAppDiscount/BackgroundAppDiscount'
 
 
 const AppDiscount = () => {
@@ -7,8 +8,8 @@ const AppDiscount = () => {
 
 
     return(
-        <section>
-            
+        <section className='appDiscount'>
+            <BackgroundAppDiscount/>
         </section>
     )
 }

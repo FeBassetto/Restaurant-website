@@ -14,7 +14,7 @@ const Home = () => {
 
     return (
         <>
-            <GreenBackground>
+            <GreenBackground type="banner">
                 <HomeBanner />
             </GreenBackground>
             <Deals/>
