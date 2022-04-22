@@ -27,6 +27,9 @@
     .benefits{
         padding-bottom: 5rem;
     }
+    .benefits > *{
+        margin-top: -10rem;
+    }
 }
 @media screen and (max-width:600px) {
     .benefits{

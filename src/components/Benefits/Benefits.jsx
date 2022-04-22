@@ -23,8 +23,8 @@ const Benefits = () => {
             />
             <BenefitBox
                 img={Burger}
-                title="Variety of Dishes"
-                sub="Entrega mais rápida em boas condições direto para você"
+                title="Variedade de pratos"
+                sub="Tenha acesso aos nossos deliciosos pacotes especiais todos os dias"
             />
         </section>
     )
