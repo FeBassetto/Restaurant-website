@@ -10,7 +10,7 @@ import Cart from "../../Cart/Cart";
 const NavbarMobile = ({ logged, shopItems, user }) => {
 
     const [activeMenu, setAcitveMenu] = useState(false)
-    const navbar = document.getElementById('Navbar__navigation')
+    const navbarNavigation = document.getElementById('Navbar__navigation')
     const items = document.querySelectorAll('.Navbar__link--active')
 
     useEffect(() => {
@@ -23,23 +23,23 @@ const NavbarMobile = ({ logged, shopItems, user }) => {
 
     function activeHamburguer() {
         if (!activeMenu) {
-            navbar.classList?.remove("Navbar__navigation")
-            navbar.classList?.add("Navbar__navigation--active")
+            navbarNavigation.classList?.remove("Navbar__navigation")
+            navbarNavigation.classList?.add("Navbar__navigation--active")
             setAcitveMenu(true)
         } else {
-            navbar.classList?.remove("Navbar__navigation--active")
-            navbar.classList?.add("Navbar__navigation")
+            navbarNavigation.classList?.remove("Navbar__navigation--active")
+            navbarNavigation.classList?.add("Navbar__navigation")
             setAcitveMenu(false)
         }
     }
 
     return (
-        <nav className="Navbar">
+        <nav className="Navbar" id="Navbar">
             <ul className="Navbar__user">
                 <li key="user-login">
                     <Link to="/"
                         className="Navbar__link">
-                        <AiOutlineUser />
+                        <AiOutlineUser/>
                         <span className="userName">{logged ? user : "Cadastre-se"}</span>
                     </Link>
                 </li>
