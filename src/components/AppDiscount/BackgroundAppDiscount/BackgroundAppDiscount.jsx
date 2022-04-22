@@ -1,5 +1,4 @@
 import React from "react";
-import GreenBackground from "../../GreenBackground/GreenBackground";
 import './BackgroundAppDiscount.css'
 
 

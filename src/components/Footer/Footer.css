@@ -1,4 +1,22 @@
-.footer{
+.footer {
+    height: 14vw;
+
     background-color: #F4F4F4;
-    padding: 2rem;
+
+    padding: 0rem 2rem;
+    box-sizing: border-box;
+
+    display: flex;
+    flex-direction: column;
+}
+
+.desktop__footer{
+    width: 100%;
+    height: 100%;
+}
+
+@media screen and (max-width:800px){
+    .desktop__footer{
+        display: none;
+    }
 }

@@ -1,5 +1,4 @@
 import React from "react";
-import GreenBackground from "../../GreenBackground/GreenBackground";
 import './ContentAppDiscount.css'
 
 import PlayStore from '../../../assets/img/playStore_dowload.png'

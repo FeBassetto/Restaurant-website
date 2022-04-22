@@ -1,0 +1,43 @@
+.footerBottom{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+
+    height: 40%;
+    width: 100%;
+}
+
+.copyright{
+    width: 50%;
+    height: 100%;
+
+    display: flex;
+    align-items: center;
+    justify-content: flex-start;
+}
+
+.copyright__content{
+    color: #414141;
+    font-size: 1vw;
+    font-family: RobotoBold;
+}
+
+.outlets {
+    width: 50%;
+    height: 100%;
+
+    display: flex;
+    align-items: center;
+    justify-content: flex-end;
+   
+}
+
+.outlets a {
+    color: #414141;
+    font-size: 1.5vw;
+    font-family: RobotoBold;
+}
+
+.outlets a:hover{
+    opacity: .8;
+}

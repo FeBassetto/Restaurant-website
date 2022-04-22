@@ -1,0 +1,75 @@
+.footerTop{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+
+    height: 60%;
+
+    border-bottom: #414141 solid 2px;
+
+    padding-top: 2rem;
+}
+
+.footerTop__navigation{
+    width: 50%;
+    height: 100%;
+}
+
+.nav__list{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+
+    width: 100%;
+    height: 100%;
+}
+
+.nav__item a{
+    text-decoration: none;
+    font-family: RobotoBold;
+    color: #414141;
+
+    font-size: 1.5vw;
+}
+
+.nav__item a:hover{
+    opacity: .8;
+}
+
+.footerTop__icons{
+    width: 50%;
+    
+    display: flex;
+    justify-content: flex-end;
+}
+
+.icons{
+    width: 30%;
+
+    display: flex;
+    flex-direction: row;
+    align-items:flex-start;
+    justify-content: space-evenly;
+    padding-top: 2vw;
+}
+
+.icons__icon{
+    width: 25%;
+    height: 4vw;
+
+    background-color: #FAAB34;
+
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+    border-radius: 50%;
+
+    color: #ffffff;
+    font-size: 2vw;
+}
+
+.icons__icon:hover{
+    opacity: .8;
+    cursor: pointer;
+}
