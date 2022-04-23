@@ -37,14 +37,14 @@ const NavbarMobile = ({ logged, shopItems, user }) => {
         <nav className="Navbar" id="Navbar">
             <ul className="Navbar__user">
                 <li key="user-login">
-                    <Link to="/"
+                    <Link to={logged ? "/account": "/login"}
                         className="Navbar__link">
                         <AiOutlineUser/>
                         <span className="userName">{logged ? user : "Cadastre-se"}</span>
                     </Link>
                 </li>
                 <li key="user-cart">
-                    <Link to="/"
+                    <Link to="/carrinho"
                         className="Navbar__link">
                         <Cart number={shopItems} />
                     </Link>
@@ -79,7 +79,7 @@ const NavbarMobile = ({ logged, shopItems, user }) => {
                 <li
                     key="Nosso-menu"
                     className="Navbar__navigation__item--active">
-                    <Link to="/"
+                    <Link to="/nossomenu"
                         className="Navbar__link 
                     Navbar__link--active">
                         Nosso Menu
@@ -88,7 +88,7 @@ const NavbarMobile = ({ logged, shopItems, user }) => {
                 <li
                     key="Ofertas"
                     className="Navbar__navigation__item--active">
-                    <Link to="/"
+                    <Link to="/ofertas"
                         className="Navbar__link 
                     Navbar__link--active">
                         Ofertas
@@ -97,7 +97,7 @@ const NavbarMobile = ({ logged, shopItems, user }) => {
                 <li
                     className="Navbar__navigation__item--active"
                     key="Sobre">
-                    <Link to="/"
+                    <Link to="/sobre"
                         className="Navbar__link 
                     Navbar__link--active">
                         Sobre
@@ -106,7 +106,7 @@ const NavbarMobile = ({ logged, shopItems, user }) => {
                 <li
                     className="Navbar__navigation__item--active"
                     key="Franquia">
-                    <Link to="/"
+                    <Link to="/franquia"
                         className="Navbar__link 
                     Navbar__link--active">
                         Franquia
@@ -115,7 +115,7 @@ const NavbarMobile = ({ logged, shopItems, user }) => {
                 <li
                     className="Navbar__navigation__item--active"
                     key="Contato">
-                    <Link to="/"
+                    <Link to="/contato"
                         className="Navbar__link 
                     Navbar__link--active">
                         Contato

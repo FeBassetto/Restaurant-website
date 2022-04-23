@@ -68,6 +68,39 @@
     cursor: pointer;
 }
 
+@media screen and (min-width:1700px) {
+    .box__content {
+        width: 500px;
+    }
+    .box__image{
+        height: 19rem;
+    }
+}
+@media screen and (min-width:1900px) {
+    .box{
+        height: 700px;
+    }
+    .box__content {
+        width: 550px;
+    }
+    .box__image{
+        height: 20rem;
+    }
+}
+@media screen and (min-width:1900px) {
+    .box{
+        height: 800px;
+    }
+    .box__content {
+        width: 650px;
+    }
+    .box__image{
+        height: 22.25rem;
+    }
+}
+
+
+
 @media screen and (max-width:925px) {
     .box {
         width: 100%;

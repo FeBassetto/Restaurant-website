@@ -54,7 +54,7 @@
     align-items: center;
 
     animation-name: slider;
-    animation-duration: .4s;
+    animation-duration: 1s;
 }
 
 @keyframes slider {

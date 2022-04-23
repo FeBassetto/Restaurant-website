@@ -17,40 +17,40 @@ const NavbarDesktop = ({ logged, shopItems, user }) => {
                     </Link>
                 </li>
                 <li>
-                    <Link to="/" className="navigation__item">
+                    <Link to="/nossomenu" className="navigation__item">
                         Nosso Menu
                     </Link>
                 </li>
                 <li>
-                    <Link to="/" className="navigation__item">
+                    <Link to="/ofertas" className="navigation__item">
                         Ofertas
                     </Link>
                 </li>
                 <li>
-                    <Link to="/" className="navigation__item">
+                    <Link to="/sobre" className="navigation__item">
                         Sobre
                     </Link>
                 </li>
                 <li>
-                    <Link to="/" className="navigation__item">
+                    <Link to="/franquia" className="navigation__item">
                         Franquia
                     </Link>
                 </li>
                 <li>
-                    <Link to="/" className="navigation__item">
+                    <Link to="/contato" className="navigation__item">
                         Contato
                     </Link>
                 </li>
             </ul>
             <ul className="user">
                 <li>
-                    <Link to="/" className="navigation__item">
+                    <Link to={logged ? "/account":"/login"} className="navigation__item">
                         <AiOutlineUser />
                         {logged ? user : "Cadastre-se"}
                     </Link>
                 </li>
                 <li>
-                    <Link to="/" className="navigation__item">
+                    <Link to="/carrinho" className="navigation__item">
                         <Cart number={shopItems} />
                     </Link>
                 </li>
