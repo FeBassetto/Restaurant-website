@@ -4,7 +4,7 @@ import './Menu.css'
 import MenuContent from "./MenuContent/MenuContent";
 
 
-const HomeMenu = () => {
+const Menu = () => {
 
 
     return (
@@ -19,4 +19,4 @@ const HomeMenu = () => {
     )
 }
 
-export default HomeMenu
+export default Menu
