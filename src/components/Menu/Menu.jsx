@@ -1,20 +1,20 @@
 import React from "react";
 import HeaderSection from "../HeaderSection/HeaderSection";
-import './HomeMenu.css'
+import './Menu.css'
 import MenuContent from "./MenuContent/MenuContent";
 
 
 const HomeMenu = () => {
 
 
-    return(
+    return (
         <section className="HomeMenu">
             <HeaderSection
-                title="Nosso Menu"
-                sub="Escolha e aproveite"
+                title="Variedade de"
+                sub="Hambúrgueres deliciosos"
                 background="white"
             />
-            <MenuContent/>
+            <MenuContent />
         </section>
     )
 }

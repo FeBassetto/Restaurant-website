@@ -7,13 +7,13 @@ import GreenBackground from "../components/GreenBackground/GreenBackground";
 import HomeBanner from "../components/HomeBanner/HomeBanner";
 import Ingredients from "../components/Ingredients/Ingredients";
 import Outlet from "../components/Outlet/Outlet";
-import HomeMenu from './../components/HomeMenu/HomeMenu';
+import HomeMenu from '../components/Menu/Menu';
 
 
 const Home = () => {
 
     return (
-        <>
+        <main>
             <GreenBackground type="banner">
                 <HomeBanner />
             </GreenBackground>
@@ -24,7 +24,7 @@ const Home = () => {
             <Outlet/>
             <Benefits/>
             <AppDiscount/>
-        </>
+        </main>
     )
 }
 

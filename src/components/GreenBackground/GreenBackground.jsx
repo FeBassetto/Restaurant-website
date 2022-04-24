@@ -16,11 +16,13 @@ const BackgroundBanner = styled.section`
     }
 `
 
-const Background = styled.section`
-    background: rgb(77,255,95);
-    background: radial-gradient(circle, rgba(77,255,95,1) 0%, rgba(6,152,21,1) 48%, rgba(1,126,13,1) 100%);    
+const Background = styled.div`
+    background: rgb(58,178,70);
+    background: radial-gradient(circle, rgba(58,178,70,1) 0%, rgba(6,152,21,1) 24%, rgba(1,126,13,1) 40%);
     height: 100%;
     padding-bottom:3rem;
+    padding-top:7rem;
+    box-sizing:border-box;
 `
 
 const GreenBackground = ({ children, type }) => {

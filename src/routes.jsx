@@ -4,6 +4,7 @@ import { SnackProvider } from './common/context/snacks';
 import Footer from './components/Footer/Footer';
 import Header from './components/Header/Header';
 import Home from './pages/Home';
+import OurMenu from './pages/OurMenu';
 
 const Routing = () => {
 
@@ -14,6 +15,9 @@ const Routing = () => {
             <SnackProvider>
                 <Routes>
                     <Route exact path='/' element={<Home />} />
+                </Routes>
+                <Routes>
+                    <Route path='/nossomenu' element={<OurMenu/>} />
                 </Routes>
             </SnackProvider>
             <Footer/>

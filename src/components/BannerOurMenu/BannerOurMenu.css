@@ -1,0 +1,22 @@
+.bannerOurMenu{
+    height: 50vw;
+}
+
+.bannerOurMenu > *{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+
+    font-family: RobotoBold;
+    color: #ffffff;
+}
+
+.bannerOurMenu__title{
+    font-size: 3vw;
+    margin-bottom: 2vw;
+}
+
+.bannerOurMenu__sub{
+    font-size: 8vw;
+}
