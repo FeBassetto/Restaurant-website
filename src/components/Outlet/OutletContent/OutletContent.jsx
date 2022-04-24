@@ -6,13 +6,14 @@ import Outlet2 from '../../../assets/img/outlet_2.png'
 import Outlet3 from '../../../assets/img/outlet_3.png'
 import BorderHeader from "../../BorderHeader/BorderHeader";
 
+
 const OutletContent = () => {
 
 
 
     return (
         <div className="outletContent">
-            <BorderHeader/>
+            <BorderHeader />
             <div className="outlets__container">
                 <BoxOutlet 
                     img={Outlet1}
