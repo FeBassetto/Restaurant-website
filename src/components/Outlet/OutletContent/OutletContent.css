@@ -5,16 +5,7 @@
     flex-direction: column;
     align-items: center;
 
-    margin-top: -2rem;
     padding-bottom: 10rem;
-}
-.border__header{
-    width: 1%;
-    height: 10%;
-
-    background-color: #4D4D4D;
-
-    border-radius: 20px;
 }
 
 .outlets__container{

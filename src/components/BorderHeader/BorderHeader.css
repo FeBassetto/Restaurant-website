@@ -1,0 +1,22 @@
+.container_borderHeader{
+    width: 100%;
+    height: auto;
+
+    margin: 0;
+
+    display: flex;
+    justify-content: center;
+
+    margin-top: -4rem;
+}
+
+.border__header{
+    width: 1vw;
+    height: 10vw;
+
+    background-color: #4D4D4D;
+
+    border-radius: 20px;
+
+    justify-self: center;
+}

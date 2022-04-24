@@ -4,6 +4,7 @@ import './OutletContent.css'
 import Outlet1 from '../../../assets/img/outlet_1.png'
 import Outlet2 from '../../../assets/img/outlet_2.png'
 import Outlet3 from '../../../assets/img/outlet_3.png'
+import BorderHeader from "../../BorderHeader/BorderHeader";
 
 const OutletContent = () => {
 
@@ -11,7 +12,7 @@ const OutletContent = () => {
 
     return (
         <div className="outletContent">
-            <div className="border__header"></div>
+            <BorderHeader/>
             <div className="outlets__container">
                 <BoxOutlet 
                     img={Outlet1}

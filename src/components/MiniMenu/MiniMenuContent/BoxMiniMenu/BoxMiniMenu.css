@@ -1,0 +1,53 @@
+.boxMiniMenu {
+    display: grid;
+    grid-template-areas:
+        "image title title title price"
+        "image sub sub sub price"
+    ;
+
+    border-top: .25rem dotted #979797;
+
+    align-items: center;
+
+    height: 100%;
+    padding:1rem 1rem;
+
+    box-sizing: border-box;
+}
+
+.boxMiniMenu:nth-child(5), .boxMiniMenu:nth-child(6){
+    border-bottom: .25rem dotted #979797;
+}
+
+.boxMiniMenu__image {
+    grid-area: image;
+    width: 80%;
+}
+
+.boxMiniMenu__title {
+    grid-area: title;
+
+    font-family: RobotoMedium;
+    color: #000;
+    font-size: 1.5vw;
+
+    align-self: flex-end;
+}
+
+.boxMiniMenu__sub {
+    grid-area: sub;
+
+    font-family: RobotoRegular;
+    color: #414141;
+    font-size: 1.25vw;
+}
+
+.boxMiniMenu__price {
+    grid-area: price;
+
+    font-family: RobotoBold;
+    color: #C90000;
+    font-size: 1.5vw;
+
+    justify-self: flex-end;
+}
