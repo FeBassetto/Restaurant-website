@@ -20,7 +20,9 @@ const OurMenu = () => {
                 background="white"
                 type="salty"
             />
-            <Deals/>
+            <Deals
+                type="primary"
+            />
             <Portions
                 title="Acompanhamentos para"
                 sub="Seus hambúrgueres deliciosos"

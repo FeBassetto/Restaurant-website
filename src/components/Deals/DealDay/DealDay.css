@@ -48,6 +48,18 @@
     background-image: url(../../../assets/img/hamburguerBanner_2.png);
 }
 
+.secondary--crispyFried:after{
+    background-image: url(../../../assets/img/crispyBackground.png);
+}
+
+.secondary--farmhouse:after{
+    background-image: url(../../../assets/img/farmhouseBackground.png);
+}
+
+.primary--blackBurger:after{
+    background-image: url(../../../assets/img/blackburgerBackground.png);
+}
+
 .sub {
     margin-bottom: .25rem;
 }

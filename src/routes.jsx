@@ -22,6 +22,7 @@ const Routing = () => {
                         <Routes>
                             <Route exact path='/' element={<Home />} />
                             <Route path='/nossomenu' element={<OurMenu />} />
+                            
                             <Route path='*' element={<Page404/>} />
                         </Routes>
                     </SweetProvider>

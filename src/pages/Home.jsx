@@ -17,7 +17,9 @@ const Home = () => {
             <GreenBackground type="banner">
                 <HomeBanner />
             </GreenBackground>
-            <Deals/>
+            <Deals
+                type="primary"
+            />
             <Ingredients/>
             <HomeMenu/>
             <Customers/>
