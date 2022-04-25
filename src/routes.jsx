@@ -2,6 +2,7 @@ import React from 'react';
 import { BrowserRouter as Router, Routes, Route } from 'react-router-dom';
 import { SaltyProvider } from './common/context/salty';
 import { SnackProvider } from './common/context/snacks';
+import { SweetProvider } from './common/context/sweet';
 import Footer from './components/Footer/Footer';
 import Header from './components/Header/Header';
 import Home from './pages/Home';
@@ -18,9 +19,11 @@ const Routing = () => {
                     <Route exact path='/' element={<Home />} />
                 </Routes>
                 <SaltyProvider>
-                    <Routes>
-                        <Route path='/nossomenu' element={<OurMenu />} />
-                    </Routes>
+                    <SweetProvider>
+                        <Routes>
+                            <Route path='/nossomenu' element={<OurMenu />} />
+                        </Routes>
+                    </SweetProvider>
                 </SaltyProvider>
             </SnackProvider>
             <Footer />

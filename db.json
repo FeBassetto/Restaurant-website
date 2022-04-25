@@ -39,46 +39,100 @@
     ],
     "portions": [
         {
+            "id": "22-as",
             "img": "http://localhost:3000/static/media/miniMenu_chicken.e0ecf2986414a1bd2909.png",
             "title": "4 pedaços de asas de frango",
             "sub": "Asas de frango frito",
             "price": "10,99",
-            "type":"salty"
+            "type": "salty"
         },
         {
-            "img":"http://localhost:3000/static/media/miniMenu_fries.fedaa5266f7533c9a0b5.png",
-                "title":"Batatas fritas famosas do BN",
-                "sub":"Batatas Fritas",
-                "price":"20,99",
-                "type":"salty"
+            "id": "23-sb",
+            "img": "http://localhost:3000/static/media/miniMenu_fries.fedaa5266f7533c9a0b5.png",
+            "title": "Batatas fritas famosas do BN",
+            "sub": "Batatas Fritas",
+            "price": "20,99",
+            "type": "salty"
         },
         {
-            "img":"http://localhost:3000/static/media/miniMenu_potatos.3d754d63efb7bebc7ba5.png",
-                "title":"Fatias de batata",
-                "sub":"Batata Assada",
-                "price":"12,99",
-                "type":"salty"
+            "id": "42-de",
+            "img": "http://localhost:3000/static/media/miniMenu_potatos.3d754d63efb7bebc7ba5.png",
+            "title": "Fatias de batata",
+            "sub": "Batata Assada",
+            "price": "12,99",
+            "type": "salty"
         },
         {
-            "img":"http://localhost:3000/static/media/miniMenu_salad.9342a774cd13039e258b.png",
-                "title":"Salada de primavera",
-                "sub":"Salada verde",
-                "price":"7,99",
-                "type":"salty"
+            "id": "53-b2",
+            "img": "http://localhost:3000/static/media/miniMenu_salad.9342a774cd13039e258b.png",
+            "title": "Salada de primavera",
+            "sub": "Salada verde",
+            "price": "7,99",
+            "type": "salty"
         },
         {
-            "img":"http://localhost:3000/static/media/miniMenu_crispy.3827f2b6c9d26d6d8607.png",
-                "title":"Sanduíche de frango crocante",
-                "sub":"Sanduíche de frango",
-                "price":"24,99",
-                "type":"salty"
+            "id": "41-no",
+            "img": "http://localhost:3000/static/media/miniMenu_crispy.3827f2b6c9d26d6d8607.png",
+            "title": "Sanduíche de frango crocante",
+            "sub": "Sanduíche de frango",
+            "price": "24,99",
+            "type": "salty"
         },
         {
-            "img":"http://localhost:3000/static/media/miniMenu_chickenSalad.3db108cf55d5b658d9d1.png",
-                "title":"Salada de galinha",
-                "sub":"Salada com frango",
-                "price":"14,99",
-                "type":"salty"
+            "id": "10-ai",
+            "img": "http://localhost:3000/static/media/miniMenu_chickenSalad.3db108cf55d5b658d9d1.png",
+            "title": "Salada de galinha",
+            "sub": "Salada com frango",
+            "price": "14,99",
+            "type": "salty"
+        },
+        {
+            "id": "11-bb",
+            "img": "http://localhost:3000/static/media/portions_tart.f17e9bbd0fcc30076666.png",
+            "title": "Torta de frutas clássica",
+            "sub": "Maçã, morango, laranja, banana",
+            "price": "5,00",
+            "type": "sweet"
+        },
+        {
+            "id": "fe-10",
+            "img": "http://localhost:3000/static/media/portions_chocolate.8c91d8dd827077e344b6.png",
+            "title": "Chocolate chip cookie",
+            "sub": "chocolate chip cookie ",
+            "price": "3,50",
+            "type": "sweet"
+        },
+        {
+            "id": "jb-41",
+            "img": "http://localhost:3000/static/media/portions_apple.7ad24c94db2585469499.png",
+            "title": "Torta de maçã assada",
+            "sub": "Nossa torta de maçã caseira especial",
+            "price": "2,99",
+            "type": "sweet"
+        },
+        {
+            "id": "de-12",
+            "img": "http://localhost:3000/static/media/portions_caramel.fadc0684ed904614377d.png",
+            "title": "Batido de Caramelo Quente",
+            "sub": "Caramelo, Chantilly, Leite",
+            "price": "21,99",
+            "type": "sweet"
+        },
+        {
+            "id": "cb-18",
+            "img": "http://localhost:3000/static/media/portions_iceCream.23420f398c1902630531.png",
+            "title": "Sorvete de baunilha",
+            "sub": "100g vanilla ice cream, cone",
+            "price": "14,99",
+            "type": "sweet"
+        },
+        {
+            "id": "an-53",
+            "img": "http://localhost:3000/static/media/portions_shake.e6ad3b88e817f27cfd7e.png",
+            "title": "batido de morango",
+            "sub": "Natas batidas, leite",
+            "price": "21,99",
+            "type": "sweet"
         }
     ]
 }
