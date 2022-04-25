@@ -1,5 +1,6 @@
 import React from 'react';
 import { BrowserRouter as Router, Routes, Route } from 'react-router-dom';
+import { SaltyProvider } from './common/context/salty';
 import { SnackProvider } from './common/context/snacks';
 import Footer from './components/Footer/Footer';
 import Header from './components/Header/Header';
@@ -16,11 +17,13 @@ const Routing = () => {
                 <Routes>
                     <Route exact path='/' element={<Home />} />
                 </Routes>
-                <Routes>
-                    <Route path='/nossomenu' element={<OurMenu/>} />
-                </Routes>
+                <SaltyProvider>
+                    <Routes>
+                        <Route path='/nossomenu' element={<OurMenu />} />
+                    </Routes>
+                </SaltyProvider>
             </SnackProvider>
-            <Footer/>
+            <Footer />
         </Router>
     )
 }

@@ -4,37 +4,81 @@
             "title": "Smush Classico",
             "price": "R$20,99",
             "text": "Pão Brioche ,Hámburguer, Mussarela, Bacon, Cebola roxa, Tomate",
-            "img":"http://localhost:3000/static/media/burgerProduct_1.288424c1689c75666927.png"
+            "img": "http://localhost:3000/static/media/burgerProduct_1.288424c1689c75666927.png"
         },
         {
             "title": "Hambúrguer de Frango",
             "price": "R$15,99",
             "text": "Pão Brioche ,2 Hámburgueres, Mussarela, Bacon, Alface, Tomate",
-            "img":"http://localhost:3000/static/media/burgerProduct_2.073b9a263ddb9f928065.png"
+            "img": "http://localhost:3000/static/media/burgerProduct_2.073b9a263ddb9f928065.png"
         },
         {
             "title": "Hamburguer Orgânico",
             "price": "R$25,99",
             "text": "Pão Brioche ,2 Hámburguer Vegetais, Mussarela, Ovo, Alface, Tomate",
-            "img":"http://localhost:3000/static/media/burgerProduct_3.1a7e3c02b290f96b7b20.png"
+            "img": "http://localhost:3000/static/media/burgerProduct_3.1a7e3c02b290f96b7b20.png"
         },
         {
             "title": "Smush Triplo",
             "price": "R$20,99",
             "text": "Pão Brioche ,3 Hámburgueres, Mussarela, alface, cebola, Tomate",
-            "img":"http://localhost:3000/static/media/burgerProduct_4.59157860ba0ccff2b3a0.png"
+            "img": "http://localhost:3000/static/media/burgerProduct_4.59157860ba0ccff2b3a0.png"
         },
         {
             "title": "Smush Tradicional",
             "price": "R$10,99",
             "text": "Pão Brioche ,Hámburguer, Mussarela, alface, Cebola roxa, picles",
-            "img":"http://localhost:3000/static/media/burgerProduct_5.8c3ab31e7f8aa820d1e0.png"
+            "img": "http://localhost:3000/static/media/burgerProduct_5.8c3ab31e7f8aa820d1e0.png"
         },
         {
             "title": "Smush Duplo",
             "price": "R$20,99",
             "text": "Pão Brioche ,Hámburguer, Mussarela, Bacon, Cebola roxa, Tomate",
-            "img":"http://localhost:3000/static/media/burgerProduct_6.1a7e3c02b290f96b7b20.png"
+            "img": "http://localhost:3000/static/media/burgerProduct_6.1a7e3c02b290f96b7b20.png"
+        }
+    ],
+    "portions": [
+        {
+            "img": "http://localhost:3000/static/media/miniMenu_chicken.e0ecf2986414a1bd2909.png",
+            "title": "4 pedaços de asas de frango",
+            "sub": "Asas de frango frito",
+            "price": "10,99",
+            "type":"salty"
+        },
+        {
+            "img":"http://localhost:3000/static/media/miniMenu_fries.fedaa5266f7533c9a0b5.png",
+                "title":"Batatas fritas famosas do BN",
+                "sub":"Batatas Fritas",
+                "price":"20,99",
+                "type":"salty"
+        },
+        {
+            "img":"http://localhost:3000/static/media/miniMenu_potatos.3d754d63efb7bebc7ba5.png",
+                "title":"Fatias de batata",
+                "sub":"Batata Assada",
+                "price":"12,99",
+                "type":"salty"
+        },
+        {
+            "img":"http://localhost:3000/static/media/miniMenu_salad.9342a774cd13039e258b.png",
+                "title":"Salada de primavera",
+                "sub":"Salada verde",
+                "price":"7,99",
+                "type":"salty"
+        },
+        {
+            "img":"http://localhost:3000/static/media/miniMenu_crispy.3827f2b6c9d26d6d8607.png",
+                "title":"Sanduíche de frango crocante",
+                "sub":"Sanduíche de frango",
+                "price":"24,99",
+                "type":"salty"
+        },
+        {
+            "img":"http://localhost:3000/static/media/miniMenu_chickenSalad.3db108cf55d5b658d9d1.png",
+                "title":"Salada de galinha",
+                "sub":"Salada com frango",
+                "price":"14,99",
+                "type":"salty"
         }
     ]
 }

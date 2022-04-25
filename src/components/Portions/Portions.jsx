@@ -5,18 +5,20 @@ import BorderHeader from '../BorderHeader/BorderHeader';
 import PortionsContent from './PortionsContent/PortionsContent';
 
 
-const Portions = () => {
+const Portions = ({title, sub, background, type}) => {
 
 
     return(
         <section className="miniMenu">
             <HeaderSection
-                title="Acompanhamentos para"
-                sub="Seus hambúrgueres deliciosos"
-                background="white"
+                title={title}
+                sub={sub}
+                background={background}
             />
             <BorderHeader/>
-            <PortionsContent/>
+            <PortionsContent
+                type={type}
+            />
         </section>
     )
 }
