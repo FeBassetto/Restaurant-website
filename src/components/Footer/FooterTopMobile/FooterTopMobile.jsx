@@ -17,31 +17,31 @@ const FooterTopMobile = () => {
                         </Link>
                     </li>
                     <li className="navMobile__item">
-                        <Link to="/" className="navMobile__link">
+                        <Link to="/nossomenu" className="navMobile__link">
                             <p>Nosso Menu</p>
                             <AiOutlineArrowRight />
                         </Link>
                     </li>
                     <li className="navMobile__item">
-                        <Link to="/" className="navMobile__link">
+                        <Link to="/ofertas" className="navMobile__link">
                             <p>Ofertas</p>
                             <AiOutlineArrowRight />
                         </Link>
                     </li>
                     <li className="navMobile__item">
-                        <Link to="/" className="navMobile__link">
+                        <Link to="/sobre" className="navMobile__link">
                             <p>Sobre</p>
                             <AiOutlineArrowRight />
                         </Link>
                     </li>
                     <li className="navMobile__item">
-                        <Link to="/" className="navMobile__link">
+                        <Link to="/franquia" className="navMobile__link">
                             <p>Franquia</p>
                             <AiOutlineArrowRight />
                         </Link>
                     </li>
                     <li className="navMobile__item">
-                        <Link to="/" className="navMobile__link">
+                        <Link to="/contato" className="navMobile__link">
                             <p>Contato</p>
                             <AiOutlineArrowRight />
                         </Link>

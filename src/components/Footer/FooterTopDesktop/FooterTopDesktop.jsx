@@ -16,19 +16,19 @@ const FooterTopDesktop = () => {
                             <Link to="/">Home</Link>
                         </li>
                         <li className="nav__item">
-                            <Link to="/">Nosso menu</Link>
+                            <Link to="/nossomenu">Nosso menu</Link>
                         </li>
                         <li className="nav__item">
-                            <Link to="/">Ofertas</Link>
+                            <Link to="/ofertas">Ofertas</Link>
                         </li>
                         <li className="nav__item">
-                            <Link to="/">Sobre</Link>
+                            <Link to="/sobre">Sobre</Link>
                         </li>
                         <li className="nav__item">
-                            <Link to="/">Franquia</Link>
+                            <Link to="/franquia">Franquia</Link>
                         </li>
                         <li className="nav__item">
-                            <Link to="/">Contato</Link>
+                            <Link to="/contato">Contato</Link>
                         </li>
                     </ul>
                 </nav>
