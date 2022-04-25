@@ -1,9 +1,9 @@
 import React from "react";
-import './BoxMiniMenu.css'
+import './BoxPortionsMenu.css'
 
 
 
-const BoxMiniMenu = ({ img, title, sub, price }) => {
+const BoxPortionsMenu = ({ img, title, sub, price }) => {
 
 
 
@@ -21,4 +21,4 @@ const BoxMiniMenu = ({ img, title, sub, price }) => {
     )
 }
 
-export default BoxMiniMenu
+export default BoxPortionsMenu

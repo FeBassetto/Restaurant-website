@@ -1,6 +1,6 @@
 import React from "react";
-import './MiniMenuContent.css'
-import BoxMiniMenu from './BoxMiniMenu/BoxMiniMenu';
+import './PortionsContent.css'
+import BoxPortionsMenu from './BoxPortionsMenu/BoxPortionsMenu';
 import chicken from '../../../assets/img/miniMenu_chicken.png'
 import fries from '../../../assets/img/miniMenu_fries.png'
 import potatos from '../../../assets/img/miniMenu_potatos.png'
@@ -9,47 +9,47 @@ import crispy from '../../../assets/img/miniMenu_crispy.png'
 import chickenSalad from '../../../assets/img/miniMenu_chickenSalad.png'
 
 
-const MiniMenuContent = () => {
+const PortionsContent = () => {
 
 
     return(
         <div className="miniMenuContent">
-            <BoxMiniMenu
+            <BoxPortionsMenu
                 img={chicken}
                 title="4 pedaços de asas de frango"
                 sub="Asas de frango frito"
                 price="10,99"
             />
 
-            <BoxMiniMenu
+            <BoxPortionsMenu
                 img={fries}
                 title="Batatas fritas famosas do BN"
                 sub="Batatas Fritas"
                 price="20,99"
             />
 
-            <BoxMiniMenu
+            <BoxPortionsMenu
                 img={potatos}
                 title="Fatias de batata"
                 sub="Batata Assada"
                 price="12,99"
             />
 
-            <BoxMiniMenu
+            <BoxPortionsMenu
                 img={salad}
                 title="Salada de primavera"
                 sub="Salada verde"
                 price="7,99"
             />
 
-            <BoxMiniMenu
+            <BoxPortionsMenu
                 img={crispy}
                 title="Sanduíche de frango crocante"
                 sub="Sanduíche de frango"
                 price="24,99"
             />
 
-            <BoxMiniMenu
+            <BoxPortionsMenu
                 img={chickenSalad}
                 title="Salada de galinha"
                 sub="Salada com frango"
@@ -59,4 +59,4 @@ const MiniMenuContent = () => {
     )
 }
 
-export default MiniMenuContent
+export default PortionsContent
