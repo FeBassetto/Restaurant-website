@@ -1,4 +1,4 @@
-.miniMenuContent{
+.miniMenuContent {
     display: grid;
     grid-template-columns: 1fr 1fr;
 
@@ -8,4 +8,10 @@
     box-sizing: border-box;
 
     gap: 0rem 5rem;
+}
+
+@media screen and (max-width:950px) {
+    .miniMenuContent {
+        grid-template-columns: 1fr;
+    }
 }
