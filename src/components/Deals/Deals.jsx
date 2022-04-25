@@ -84,6 +84,18 @@ const Deals = ({type}) => {
                     circleText={deal.circleText}
                 />
             ))}
+            {type === 'secondary' && secondaryDeals.map(deal => (
+                <DealDay
+                    type={deal.type}
+                    background={deal.background}
+                    title={deal.title}
+                    subTitle={deal.subTitle}
+                    buttonText={deal.buttonText}
+                    circleColor={deal.circleColor}
+                    circleNumber={deal.circleNumber}
+                    circleText={deal.circleText}
+                />
+            ))}
         </section>
     )
 }

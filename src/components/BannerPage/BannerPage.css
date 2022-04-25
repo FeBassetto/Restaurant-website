@@ -1,8 +1,8 @@
-.bannerOurMenu{
+.bannerPage{
     height: 50vw;
 }
 
-.bannerOurMenu > *{
+.bannerPage > *{
     display: flex;
     flex-direction: column;
     justify-content: center;
@@ -12,11 +12,12 @@
     color: #ffffff;
 }
 
-.bannerOurMenu__title{
+.bannerPage__title{
     font-size: 3vw;
     margin-bottom: 2vw;
 }
 
-.bannerOurMenu__sub{
+.bannerPage__sub{
     font-size: 8vw;
+    text-transform: uppercase;
 }

@@ -1,5 +1,5 @@
 import React from 'react'
-import BannerOurMenu from '../components/BannerOurMenu/BannerOurMenu'
+import BannerPage from '../components/BannerPage/BannerPage'
 import HomeMenu from '../components/Menu/Menu';
 import Portions from '../components/Portions/Portions';
 import Deals from './../components/Deals/Deals';
@@ -12,7 +12,10 @@ const OurMenu = () => {
 
     return (
         <main>
-            <BannerOurMenu/>
+            <BannerPage
+                title="Venha conferir"
+                sub="Nosso Menu"
+            />
             <HomeMenu/>
             <Portions
                 title="Acompanhamentos para"
