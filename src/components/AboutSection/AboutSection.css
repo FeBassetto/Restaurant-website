@@ -1,5 +1,5 @@
 .aboutSection{
-    padding-top: 8vw;
+    padding-top: 8rem;
     position: relative;
 
     height: 70vw;
@@ -22,4 +22,10 @@
     background-repeat: no-repeat;
     background-image: url(../../assets/img/backgroundAboutSection.png);
     filter: brightness(.2);
+}
+
+@media screen and (max-width:1000px){
+    .aboutSection{
+        height: 120vw;
+    }
 }

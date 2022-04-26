@@ -13,22 +13,15 @@ const AboutSectionContent = () => {
             </h1>
             <h2 className='aboutSectionContent__sub'>
                 Nossos Hambúrgueres são feitos com muito amor
-                e carinho
+                e carinho, venha exoerimentar
             </h2>
             <h3 className='aboutSectionContent__description'>
-                Lorem ipsum dolor sit amet,
-                consectetur adipiscing elit.
-                Tellus et volutpat magna a
-                faucibus ut eget. Habitant
-                faucibus laoreet nibh amet id.
-                Enim praesent justo aliquet eget
-                feugiat ac. Id egestas elit metus,
-                amet sed vestibulum. Nisl imperdiet
-                ac blandit id sed suscipit urna.
-                Venenatis vestibulum enim fames sit
-                adipiscing. Cursus commodo tempor
-                elementum eros eu non purus at mattis.
-                Velit consectetur lobortis interdum.
+                Nós temos nossolanche desde 2010, onde a primeira
+                foi fundada em Botucatu-SP. Desde o nosso começo
+                sempre prezamos pelos nossos hambúrgueres saborosos
+                e feitos com muito amor e carinho. Venha se tornar um
+                Nation consosco, e aproveite para comer um dos lanches
+                mais irresistíveis que esse planeta já conheceu 
             </h3>
         </div>
     )
