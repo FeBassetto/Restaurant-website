@@ -13,21 +13,23 @@ const OutletContent = () => {
 
     return (
         <div className="outletContent">
-            <BorderHeader />
+            <BorderHeader
+                color="grey"
+            />
             <div className="outlets__container">
-                <BoxOutlet 
+                <BoxOutlet
                     img={Outlet1}
                     local="Rua Armando de Barros nº1321, 
                     Botucatu, Brasil."
                     tel="(+14) 998123450"
                 />
-                <BoxOutlet 
+                <BoxOutlet
                     img={Outlet2}
                     local="Rua Marechal Felipe nº253, 
                     São Paulo, Brasil."
                     tel="(+14) 998666220"
                 />
-                <BoxOutlet 
+                <BoxOutlet
                     img={Outlet3}
                     local="Rua Airton Mendes nº13, 
                     Campinas, Brasil."

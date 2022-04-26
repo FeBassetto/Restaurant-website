@@ -3,13 +3,13 @@ import './BorderHeader.css'
 
 
 
-const BorderHeader = () => {
+const BorderHeader = ({color}) => {
 
 
 
     return (
-        <div className="container_borderHeader">
-            <div className="border__header"></div>
+        <div className={`container_borderHeader`}>
+            <div className={`border__header border__header--${color}`}></div>
         </div>
     )
 }

@@ -5,6 +5,7 @@ import { SnackProvider } from './common/context/snacks';
 import { SweetProvider } from './common/context/sweet';
 import Footer from './components/Footer/Footer';
 import Header from './components/Header/Header';
+import About from './pages/About';
 import Home from './pages/Home';
 import Offers from './pages/Offers';
 import OurMenu from './pages/OurMenu';
@@ -24,6 +25,7 @@ const Routing = () => {
                             <Route exact path='/' element={<Home />} />
                             <Route path='/nossomenu' element={<OurMenu />} />
                             <Route path='/ofertas' element={<Offers />} />
+                            <Route path="/sobre" element={<About/>} />
                             <Route path='*' element={<Page404 />} />
                         </Routes>
                     </SweetProvider>

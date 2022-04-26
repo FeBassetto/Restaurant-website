@@ -14,9 +14,16 @@
     width: 1vw;
     height: 10vw;
 
-    background-color: #4D4D4D;
-
     border-radius: 20px;
 
     justify-self: center;
 }
+
+.border__header--grey{
+    background-color: #4D4D4D;
+}
+
+.border__header--white{
+    background-color: #ffffff;
+}
+

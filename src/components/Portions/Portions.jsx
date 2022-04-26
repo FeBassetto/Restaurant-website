@@ -15,7 +15,9 @@ const Portions = ({title, sub, background, type}) => {
                 sub={sub}
                 background={background}
             />
-            <BorderHeader/>
+            <BorderHeader
+                color="grey"
+            />
             <PortionsContent
                 type={type}
             />

@@ -1,0 +1,25 @@
+.aboutSection{
+    padding-top: 8vw;
+    position: relative;
+
+    height: 70vw;
+
+    box-sizing: border-box;
+}
+
+.aboutSection::after{
+    position: absolute;
+    content: '';
+
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    z-index: -1;
+
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-image: url(../../assets/img/backgroundAboutSection.png);
+    filter: brightness(.2);
+}
